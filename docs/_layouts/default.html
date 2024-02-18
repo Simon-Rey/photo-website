@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css"/>
+</head>
+
+<body>
+
+<header>
+Simon Rey
+</header>
+
+<aside>
+    <nav>
+        <ul>
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <a href="{{ "astrophotography" | relative_url }}">Community</a>
+        </ul>
+    </nav>
+</aside>
+
+<main>
+    {{ content }}
+</main>
+
+<footer>
+
+</footer>
+
+</body>
