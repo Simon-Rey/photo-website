@@ -1,9 +1,9 @@
 
-{% assign photos = site.data[include.gallery_name] %}
+{% assign photos = site.data[include.name] %}
 
 <div class="gallery-wrap">
 {% for photo in photos %}
-    <img src="{{ site.baseurl }}/assets/galleries/{{ include.gallery_name }}/{{ photo.src }}"
+    <img src="{{ site.baseurl }}/assets/galleries/{{ include.name }}/{{ photo.src }}"
          {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}>
 {% endfor %}
 </div>

@@ -1,3 +1,7 @@
+---
+layout: default
+title: Simon Rey Photo
+---
 
 # Welcome
 
