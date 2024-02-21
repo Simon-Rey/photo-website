@@ -157,7 +157,7 @@ Gallery Style
 
 .gallery-wrap {
     line-height: 0;
-    column-count: 2;
+    column-count: 3;
     column-gap: 20px;
     display: inline-block;
 }
