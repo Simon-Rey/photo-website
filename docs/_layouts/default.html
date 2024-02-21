@@ -9,17 +9,20 @@
 <body>
 
 <header>
-Simon Rey
+    <span id="name-span"><a href="{{ "/" | relative_url }}">Simon Rey</a></span>
 </header>
 
-<aside>
-    <nav>
-        <ul>
-            <li><a href="{{ "/" | relative_url }}">Home</a></li>
-            <a href="{{ "astrophotography" | relative_url }}">Community</a>
-        </ul>
-    </nav>
-</aside>
+<nav id="main-menu-wrap">
+    <ul id="main-menu">
+        <li><a href="{{ "ports" | relative_url }}">Ports</a></li>
+        <li><a href="{{ "othersidemirror" | relative_url }}">Other Side of the Mirror</a></li>
+        <li><a href="{{ "astrophotography" | relative_url }}">Astrophotgraphy</a></li>
+        <li><a href="{{ "movement" | relative_url }}">Movement</a></li>
+        <li><a href="{{ "amsterdamfoggy" | relative_url }}">Foggy Amsterdam</a></li>
+        <li><a href="{{ "amsterdampatterns" | relative_url }}">Patterns of Amsterdam</a></li>
+        <li><a href="{{ "scrapesurface" | relative_url }}">Scrape the Surface</a></li>
+    </ul>
+</nav>
 
 <main>
     {{ content }}

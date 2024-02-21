@@ -1,0 +1,167 @@
+:root {
+	--color-frame-main: #313234;
+	--color-background-main: white;
+    --color-background-dark: #d9d9d9;
+}
+
+
+/* =======
+Font Sizes
+======= */
+
+html {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+span, input {
+	font-size: inherit;
+}
+
+/* ========
+Page layout
+======== */
+
+body {
+    background-color: var(--color-background-main);
+    padding: 0;
+    margin: 0;
+}
+
+.center-align {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ===
+Header
+=== */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-background-main);
+    padding: 30px 30px;
+    border-bottom: 5px solid var(--color-frame-main);
+    height: 120px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+#name-span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+#name-span a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ======
+Main Menu
+====== */
+
+#main-menu-wrap {
+    position: fixed;
+    top: 120px;
+    width: 17ch;
+}
+
+#main-menu {
+    padding: 0;
+    margin: 60px 0 0;
+    list-style: none;
+}
+
+#main-menu > li {
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#main-menu > li a {
+    padding: 20px 10px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 17ch;
+    box-sizing: border-box;
+}
+
+#main-menu > li:hover {
+    background-color: var(--color-background-dark);
+    transition: background-color 0.5s;
+}
+
+/* ========
+Body Layout
+======== */
+
+main {
+    margin-left: 17ch;
+    margin-top: 150px;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* ==========
+Gallery Style
+========== */
+
+.gallery-wrap {
+    line-height: 0;
+    column-count: 2;
+    column-gap: 20px;
+    display: inline-block;
+}
+
+.gallery-wrap > .photo-thumbnail:not(:last-of-type) {
+    margin-bottom: 20px;
+}

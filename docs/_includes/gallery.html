@@ -3,7 +3,7 @@
 
 <div class="gallery-wrap">
 {% for photo in photos %}
-    <img src="{{ site.baseurl }}/assets/galleries/{{ photo.src }}"
+    <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src }}"
          {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}>
 {% endfor %}
 </div>
