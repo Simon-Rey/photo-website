@@ -3,7 +3,87 @@
 
 <div class="gallery-wrap">
 {% for photo in photos %}
-    <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src }}"
+    <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src-thumbnail }}"
          {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}>
 {% endfor %}
 </div>
+
+<div id="modal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modal-image">
+  <a class="modal-prev" id="modal-prev">&#10094;</a>
+  <a class="modal-next" id="modal-next">&#10095;</a>
+</div>
+
+<script>
+    const modal = document.getElementById('modal');
+    const modalImg = document.getElementById('modal-image');
+    const modalPrev = document.getElementById('modal-prev');
+    const modalNext = document.getElementById('modal-next');
+    const galleryImages = document.querySelectorAll('.gallery-wrap > img');
+    let currentSlideIndex = 0;
+    let slideSrcArray = []; // Array to store image source URLs
+
+    galleryImages.forEach((image, index) => {
+        image.addEventListener('click', () => {
+            showModal();
+            modalImg.src = image.src;
+            currentSlideIndex = index;
+        });
+        slideSrcArray.push(image.src); // Store src values in the array
+    });
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal || e.target.classList.contains('close')) {
+            hideModal();
+        }
+    });
+
+    modalImg.addEventListener('load', function() {
+        modalPrev.classList.add('hidden');
+        modalNext.classList.add('hidden');
+    });
+
+    modalPrev.addEventListener('click', () => {
+        plusSlides(-1);
+    });
+
+    modalNext.addEventListener('click', () => {
+        plusSlides(1);
+    });
+
+    function showModal() {
+        modal.classList.add('visible');
+        document.body.style.overflow = 'hidden'; // Hide the scrollbar
+    }
+
+    function hideModal() {
+        modal.classList.remove('visible');
+        document.body.style.overflow = 'auto'; // Restore the scrollbar
+        modalPrev.classList.remove('hidden');
+        modalNext.classList.remove('hidden');
+    }
+
+    function plusSlides(n) {
+        currentSlideIndex += n;
+        if (currentSlideIndex >= slideSrcArray.length) {
+            currentSlideIndex = 0;
+        }
+        if (currentSlideIndex < 0) {
+            currentSlideIndex = slideSrcArray.length - 1;
+        }
+        modalImg.src = slideSrcArray[currentSlideIndex];
+    }
+
+    document.addEventListener('keydown', (e) => {
+        if (modal.classList.contains('visible')) {
+            if (e.key === 'ArrowLeft' || e.keyCode === 37) {
+                plusSlides(-1);
+            } else if (e.key === 'ArrowRight' || e.keyCode === 39) {
+                plusSlides(1);
+            } else if (e.key === 'Escape' || e.keyCode === 27) {
+                hideModal();
+            }
+        }
+    });
+</script>
