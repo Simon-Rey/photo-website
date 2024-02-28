@@ -54,13 +54,24 @@
     let currentSlideIndex = 0;
     let slideSrcArray = []; // Array to store image source URLs
 
+    function preloadImages() {
+        slideSrcArray.forEach((src) => {
+            const img = new Image();
+            img.src = src;
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        preloadImages(); // Preload images when the DOM is ready
+    });
+
     galleryImages.forEach((image, index) => {
         image.addEventListener('click', () => {
             showModal();
             modalImg.src = image.dataset.srcfull;
             currentSlideIndex = index;
         });
-        slideSrcArray.push(image.src); // Store src values in the array
+        slideSrcArray.push(image.dataset.srcfull); // Store src values in the array
     });
 
     modal.addEventListener('click', (e) => {
@@ -93,6 +104,7 @@
         document.body.style.overflow = 'auto'; // Restore the scrollbar
         modalPrev.classList.remove('hidden');
         modalNext.classList.remove('hidden');
+        modalImg.src = "";
     }
 
     function plusSlides(n) {
