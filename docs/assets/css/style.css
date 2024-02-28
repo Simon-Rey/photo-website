@@ -107,18 +107,20 @@ Main Menu
 #main-menu-wrap {
     position: fixed;
     top: 120px;
-    width: 17ch;
+    width: 18ch;
 }
 
 #main-menu {
     padding: 0;
     margin: 60px 0 0;
     list-style: none;
+    box-sizing: border-box;
 }
 
 #main-menu > li {
     font-weight: bold;
-    display: inline-block;
+    display: block;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -128,7 +130,7 @@ Main Menu
     color: black;
     text-decoration: none;
     display: block;
-    width: 17ch;
+    width: 18ch;
     box-sizing: border-box;
 }
 
@@ -142,7 +144,7 @@ Body Layout
 ======== */
 
 main {
-    margin-left: 17ch;
+    margin-left: 18ch;
     margin-top: 150px;
     margin-right: 20px;
 }
@@ -156,16 +158,14 @@ Gallery Style
 ========== */
 
 .gallery-wrap {
-    line-height: 0;
-    column-count: 3;
-    column-gap: 20px;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px
 }
 
 .gallery-wrap > .photo-thumbnail:not(:last-of-type) {
     margin-bottom: 20px;
 }
-
 
 .modal {
     display: none;
@@ -175,7 +175,7 @@ Gallery Style
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
     background-color: rgba(0, 0, 0);
     color: white;
 }
@@ -191,48 +191,49 @@ Gallery Style
     max-height: 100%;
 }
 
-.close {
+.modal-control {
     color: #fff;
     position: absolute;
-    top: 10px;
-    right: 25px;
     font-size: 35px;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity 4s ease;
+}
+
+.modal-control.hidden {
+    opacity: 0;
+}
+
+.modal-control.hidden:hover {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.close {
+    top: 0;
+    right: 0;
+    padding: 10px 25px 50px 50px;
 }
 
 .modal-prev,
 .modal-next {
-    font-size: 35px;
-    color: #fff;
-    text-decoration: none;
-    position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    opacity: 1;
-    transition: opacity 4s ease;
-    cursor: pointer;
-}
-
-.modal-prev.hidden,
-.modal-next.hidden {
-    opacity: 0;
-}
-
-.modal-prev.hidden:hover,
-.modal-next.hidden:hover {
-    opacity: 1;
-    transition: opacity 0.4s ease;
+    height: 0;
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
 
 .modal-prev {
-    left: 10px;
+    left: 0;
+    padding-left: 25px;
     padding-right: 30px;
 }
 
 .modal-next {
-    right: 10px;
+    right: 0;
+    padding-right: 25px;
     padding-left: 30px;
 }

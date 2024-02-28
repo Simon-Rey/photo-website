@@ -1,18 +1,27 @@
 - src-full: Scrape the Surface/Scrape the Surface-1.jpg
   src-thumbnail: Scrape the Surface/Scrape the Surface-1.jpg
+  normalised_height: 1.414
 - src-full: Scrape the Surface/Scrape the Surface-1-2.jpg
   src-thumbnail: Scrape the Surface/Scrape the Surface-1-2.jpg
+  normalised_height: 1.333
 - src-full: Scrape the Surface/Scrape the Surface-2.jpg
   src-thumbnail: Scrape the Surface/Scrape the Surface-2.jpg
+  normalised_height: 1.333
 - src-full: Scrape the Surface/Scrape the Surface-2-2.jpg
   src-thumbnail: Scrape the Surface/Scrape the Surface-2-2.jpg
+  normalised_height: 0.75
 - src-full: Scrape the Surface/Scrape the Surface-3.jpg
   src-thumbnail: Scrape the Surface/Scrape the Surface-3.jpg
+  normalised_height: 0.75
 - src-full: Scrape the Surface/Scrape the Surface-4.jpg
   src-thumbnail: Scrape the Surface/Scrape the Surface-4.jpg
+  normalised_height: 1.333
 - src-full: Scrape the Surface/Scrape the Surface-5.jpg
   src-thumbnail: Scrape the Surface/Scrape the Surface-5.jpg
+  normalised_height: 0.75
 - src-full: Scrape the Surface/Scrape the Surface-6.jpg
   src-thumbnail: Scrape the Surface/Scrape the Surface-6.jpg
+  normalised_height: 1.333
 - src-full: Scrape the Surface/Scrape the Surface-7.jpg
   src-thumbnail: Scrape the Surface/Scrape the Surface-7.jpg
+  normalised_height: 1.333

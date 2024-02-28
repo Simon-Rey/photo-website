@@ -1,26 +1,55 @@
 
 {% assign photos = site.data[include.name] %}
+{% assign photoDiv1 = '' | split: '' %}
+{% assign photoDiv2 = '' | split: '' %}
+{% assign photoDiv3 = '' | split: '' %}
+{% assign total_height1 = 0 %}
+{% assign total_height2 = 0 %}
+{% assign total_height3 = 0 %}
+
+{% for photo in photos %}
+  {% if total_height1 <= total_height2 %}
+    {% assign photoDiv1 = photoDiv1 | push: photo %}
+    {% assign total_height1 = total_height1 | plus: photo.normalised_height %}
+  {% elsif total_height2 <= total_height3 %}
+    {% assign photoDiv2 = photoDiv2 | push: photo %}
+    {% assign total_height2 = total_height2 | plus: photo.normalised_height %}
+  {%else %}
+    {% assign photoDiv3 = photoDiv3 | push: photo %}
+    {% assign total_height3 = total_height3 | plus: photo.normalised_height %}
+  {% endif %}
+{% endfor %}
+
+{% assign allPhotoDivs = '' | split: '' %}
+{% assign allPhotoDivs = allPhotoDivs | push: photoDiv1 %}
+{% assign allPhotoDivs = allPhotoDivs | push: photoDiv2 %}
+{% assign allPhotoDivs = allPhotoDivs | push: photoDiv3 %}
 
 <div class="gallery-wrap">
-{% for photo in photos %}
-    <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src-thumbnail }}"
-         {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}>
-{% endfor %}
+  {% for photoDiv in allPhotoDivs %}
+    <div>
+      {% for photo in photoDiv %}
+          <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src-thumbnail }}"
+               {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}>
+      {% endfor %}
+    </div>
+  {% endfor %}
 </div>
 
 <div id="modal" class="modal">
-  <span class="close">&times;</span>
   <img class="modal-content" id="modal-image">
-  <a class="modal-prev" id="modal-prev">&#10094;</a>
-  <a class="modal-next" id="modal-next">&#10095;</a>
+  <a class="modal-control modal-prev" id="modal-prev">&#10094;</a>
+  <a class="modal-control modal-next" id="modal-next">&#10095;</a>
+  <span class="modal-control close">&times;</span>
 </div>
 
 <script>
     const modal = document.getElementById('modal');
     const modalImg = document.getElementById('modal-image');
+    const modalControls = document.querySelectorAll('.modal-control');
     const modalPrev = document.getElementById('modal-prev');
     const modalNext = document.getElementById('modal-next');
-    const galleryImages = document.querySelectorAll('.gallery-wrap > img');
+    const galleryImages = document.querySelectorAll('.photo-thumbnail');
     let currentSlideIndex = 0;
     let slideSrcArray = []; // Array to store image source URLs
 
@@ -40,8 +69,9 @@
     });
 
     modalImg.addEventListener('load', function() {
-        modalPrev.classList.add('hidden');
-        modalNext.classList.add('hidden');
+        modalControls.forEach( (c) => {
+            c.classList.add('hidden');
+        });
     });
 
     modalPrev.addEventListener('click', () => {
