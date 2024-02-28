@@ -1,16 +1,96 @@
-- src-full: Movement/Movement-1.jpg
-  src-thumbnail: Movement/Movement-1.jpg
-- src-full: Movement/Movement-2.jpg
-  src-thumbnail: Movement/Movement-2.jpg
-- src-full: Movement/Movement-3.jpg
-  src-thumbnail: Movement/Movement-3.jpg
-- src-full: Movement/Movement-4.jpg
-  src-thumbnail: Movement/Movement-4.jpg
-- src-full: Movement/Movement-5.jpg
-  src-thumbnail: Movement/Movement-5.jpg
-- src-full: Movement/Movement-6.jpg
-  src-thumbnail: Movement/Movement-6.jpg
-- src-full: Movement/Movement-7.jpg
-  src-thumbnail: Movement/Movement-7.jpg
-- src-full: Movement/Movement-8.jpg
-  src-thumbnail: Movement/Movement-8.jpg
+- src-full: Movement/Movement - 7EB0FB77-A6A0-434F-B6A5-0D28C64F58D6.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - 7EB0FB77-A6A0-434F-B6A5-0D28C64F58D6_thumbnail.jpg
+  width: 4592
+  height: 3448
+  normalised_width: 1.3317865429234
+  normalised_height: 0.75087108013937
+  title: 
+  caption: 
+- src-full: Movement/Movement - 38B5F521-A66A-4CE1-BEFF-334106EEC98D.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - 38B5F521-A66A-4CE1-BEFF-334106EEC98D_thumbnail.jpg
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+- src-full: Movement/Movement - 2DD1139A-3D56-4931-9277-B046CFC75DBB.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - 2DD1139A-3D56-4931-9277-B046CFC75DBB_thumbnail.jpg
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+- src-full: Movement/Movement - 5A8D767D-ECE1-419F-A911-47A2FF17BDB3.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - 5A8D767D-ECE1-419F-A911-47A2FF17BDB3_thumbnail.jpg
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+- src-full: Movement/Movement - 242840CB-5493-4FE2-A517-8924EB441BE7.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - 242840CB-5493-4FE2-A517-8924EB441BE7_thumbnail.jpg
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+- src-full: Movement/Movement - E3C22B2B-3B5C-42AB-9011-5390DD263236.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - E3C22B2B-3B5C-42AB-9011-5390DD263236_thumbnail.jpg
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+- src-full: Movement/Movement - CF28E770-2704-4ADD-ADA7-DBED030034FD.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - CF28E770-2704-4ADD-ADA7-DBED030034FD_thumbnail.jpg
+  width: 3888
+  height: 5184
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 
+- src-full: Movement/Movement - C604E6ED-3477-4CFE-9B0F-FE216B738C82.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - C604E6ED-3477-4CFE-9B0F-FE216B738C82_thumbnail.jpg
+  width: 3888
+  height: 5184
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 
+- src-full: Movement/Movement - A342C611-2BB3-4C9E-BBB4-73D52A7DBD9C.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - A342C611-2BB3-4C9E-BBB4-73D52A7DBD9C_thumbnail.jpg
+  width: 3888
+  height: 5184
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 
+- src-full: Movement/Movement - 0E7B71A8-6EE3-4A6D-921F-7E354B2CFFEF.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - 0E7B71A8-6EE3-4A6D-921F-7E354B2CFFEF_thumbnail.jpg
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+- src-full: Movement/Movement - F1C5BB11-3294-4A74-88A9-E45DA5A368EE.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - F1C5BB11-3294-4A74-88A9-E45DA5A368EE_thumbnail.jpg
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+- src-full: Movement/Movement - EB723CE4-4404-43D9-8745-A38A6A09A9D0.jpg
+  src-thumbnail: Movement/Thumbnail/Movement - EB723CE4-4404-43D9-8745-A38A6A09A9D0_thumbnail.jpg
+  width: 3888
+  height: 5184
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 

@@ -5,4 +5,4 @@ title: Movement | Simon Rey
 
 # Movement
 
-{% include gallery.html name="movement" %}
+{% include gallery.html name="Movement" %}

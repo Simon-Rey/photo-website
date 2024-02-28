@@ -8,10 +8,10 @@
 {% assign total_height3 = 0 %}
 
 {% for photo in photos %}
-  {% if total_height1 <= total_height2 %}
+  {% if total_height1 <= total_height2 and total_height1 <= total_height3 %}
     {% assign photoDiv1 = photoDiv1 | push: photo %}
     {% assign total_height1 = total_height1 | plus: photo.normalised_height %}
-  {% elsif total_height2 <= total_height3 %}
+  {% elsif total_height2 <= total_height1 and total_height1 <= total_height3 %}
     {% assign photoDiv2 = photoDiv2 | push: photo %}
     {% assign total_height2 = total_height2 | plus: photo.normalised_height %}
   {%else %}
@@ -30,7 +30,8 @@
     <div>
       {% for photo in photoDiv %}
           <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src-thumbnail }}"
-               {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}>
+               {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}
+               data-srcfull="{{ site.baseurl }}/assets/galleries/{{ photo.src-full }}">
       {% endfor %}
     </div>
   {% endfor %}
@@ -56,7 +57,7 @@
     galleryImages.forEach((image, index) => {
         image.addEventListener('click', () => {
             showModal();
-            modalImg.src = image.src;
+            modalImg.src = image.dataset.srcfull;
             currentSlideIndex = index;
         });
         slideSrcArray.push(image.src); // Store src values in the array

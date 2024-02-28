@@ -7,4 +7,4 @@ title: Ports | Simon Rey
 
 I love ports
 
-{% include gallery.html name="ports" %}
+{% include gallery.html name="Ports" %}

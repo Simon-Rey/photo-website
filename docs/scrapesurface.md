@@ -12,4 +12,4 @@ Layers after layers, we hide away previous design, construction material, shamef
 <span style="font-style: italic;">Scrape the Surface</span> celebrates all the glimpses we get
 at the unknown layers.
 
-{% include gallery.html name="scrapesurface" %}
+{% include gallery.html name="ScrapetheSurface" %}

@@ -146,7 +146,8 @@ Body Layout
 main {
     margin-left: 18ch;
     margin-top: 150px;
-    margin-right: 20px;
+    margin-right: 0;
+    padding: 0 20px;
 }
 
 h1 {
@@ -163,7 +164,7 @@ Gallery Style
     column-gap: 20px
 }
 
-.gallery-wrap > .photo-thumbnail:not(:last-of-type) {
+.gallery-wrap .photo-thumbnail:not(:last-of-type) {
     margin-bottom: 20px;
 }
 
