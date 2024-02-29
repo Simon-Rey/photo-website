@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Lines that Divide or Unites | Simon Rey
+title: Lines that Divide or Unite | Simon Rey
 ---
 
-# Lines that Divide or Unites
+# Lines that Divide or Unite
 
 Transportation infrastructures (electric network, train lines, ...) define lines
 in the landscape, uniting cities, bridging communities. They also divide: follows the 

@@ -30,8 +30,7 @@
     <div>
       {% for photo in photoDiv %}
           <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src-small }}"
-               {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}
-               data-srcfull="{{ site.baseurl }}/assets/galleries/{{ photo.src-large }}">
+               {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}>
       {% endfor %}
     </div>
   {% endfor %}
@@ -41,7 +40,7 @@
   <img class="modal-content" id="modal-image">
   <a class="modal-control modal-prev" id="modal-prev">&#10094;</a>
   <a class="modal-control modal-next" id="modal-next">&#10095;</a>
-  <span class="modal-control close">&times;</span>
+  <span class="close">&times;</span>
 </div>
 
 <script>
@@ -52,7 +51,11 @@
     const modalNext = document.getElementById('modal-next');
     const galleryImages = document.querySelectorAll('.photo-thumbnail');
     let currentSlideIndex = 0;
-    let slideSrcArray = []; // Array to store image source URLs
+    let slideSrcArray = [
+        {% for photo in photos %}
+        "{{ site.baseurl }}/assets/galleries/{{ photo.src-large }}",
+        {% endfor %}
+    ]; // Array to store image source URLs
 
     function preloadImages() {
         slideSrcArray.forEach((src) => {
@@ -68,10 +71,9 @@
     galleryImages.forEach((image, index) => {
         image.addEventListener('click', () => {
             showModal();
-            modalImg.src = image.dataset.srcfull;
+            modalImg.src = slideSrcArray[index];
             currentSlideIndex = index;
         });
-        slideSrcArray.push(image.dataset.srcfull); // Store src values in the array
     });
 
     modal.addEventListener('click', (e) => {

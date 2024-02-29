@@ -221,9 +221,20 @@ Gallery Style
 }
 
 .close {
+    color: #fff;
+    position: absolute;
+    z-index: 2;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
     top: 0;
     right: 0;
     padding: 10px 25px 50px 50px;
+}
+
+.close:hover {
+    color: #c44545;
 }
 
 .modal-prev,
