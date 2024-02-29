@@ -11,10 +11,10 @@
   {% if total_height1 <= total_height2 and total_height1 <= total_height3 %}
     {% assign photoDiv1 = photoDiv1 | push: photo %}
     {% assign total_height1 = total_height1 | plus: photo.normalised_height %}
-  {% elsif total_height2 <= total_height1 and total_height1 <= total_height3 %}
+  {% elsif total_height2 <= total_height1 and total_height2 <= total_height3 %}
     {% assign photoDiv2 = photoDiv2 | push: photo %}
     {% assign total_height2 = total_height2 | plus: photo.normalised_height %}
-  {%else %}
+  {% else %}
     {% assign photoDiv3 = photoDiv3 | push: photo %}
     {% assign total_height3 = total_height3 | plus: photo.normalised_height %}
   {% endif %}
