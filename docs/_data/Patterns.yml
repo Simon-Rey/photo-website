@@ -1,128 +1,396 @@
-- src-full: Patterns/Patterns - C32130F1-08DE-45D1-A49E-090596021BC3.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - C32130F1-08DE-45D1-A49E-090596021BC3_thumbnail.jpg
+- src-full: Patterns/Full/Patterns - 37A1BDC7-DCBE-45D0-A3AA-1EB72D3C56B3_full.webp
+  src-large: Patterns/Large/Patterns - 37A1BDC7-DCBE-45D0-A3AA-1EB72D3C56B3_large.webp
+  src-mid: Patterns/Mid/Patterns - 37A1BDC7-DCBE-45D0-A3AA-1EB72D3C56B3_mid.webp
+  src-small: Patterns/Small/Patterns - 37A1BDC7-DCBE-45D0-A3AA-1EB72D3C56B3_small.webp
+  width: 3064
+  height: 5176
+  normalised_width: 0.5919629057187
+  normalised_height: 1.6892950391645
+  title: 
+  caption: 
+  order_index: 1
+- src-full: Patterns/Full/Patterns - 80413550-350C-4348-A74F-C354F24AA557_full.webp
+  src-large: Patterns/Large/Patterns - 80413550-350C-4348-A74F-C354F24AA557_large.webp
+  src-mid: Patterns/Mid/Patterns - 80413550-350C-4348-A74F-C354F24AA557_mid.webp
+  src-small: Patterns/Small/Patterns - 80413550-350C-4348-A74F-C354F24AA557_small.webp
+  width: 4592
+  height: 3448
+  normalised_width: 1.3317865429234
+  normalised_height: 0.75087108013937
+  title: 
+  caption: 
+  order_index: 2
+- src-full: Patterns/Full/Patterns - C32130F1-08DE-45D1-A49E-090596021BC3_full.webp
+  src-large: Patterns/Large/Patterns - C32130F1-08DE-45D1-A49E-090596021BC3_large.webp
+  src-mid: Patterns/Mid/Patterns - C32130F1-08DE-45D1-A49E-090596021BC3_mid.webp
+  src-small: Patterns/Small/Patterns - C32130F1-08DE-45D1-A49E-090596021BC3_small.webp
   width: 5184
   height: 3888
   normalised_width: 1.3333333333333
   normalised_height: 0.75
   title: 
   caption: 
-- src-full: Patterns/Patterns - 0CDE733B-3D24-4BEA-A326-26D9849AA892.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - 0CDE733B-3D24-4BEA-A326-26D9849AA892_thumbnail.jpg
+  order_index: 3
+- src-full: Patterns/Full/Patterns - 0CDE733B-3D24-4BEA-A326-26D9849AA892_full.webp
+  src-large: Patterns/Large/Patterns - 0CDE733B-3D24-4BEA-A326-26D9849AA892_large.webp
+  src-mid: Patterns/Mid/Patterns - 0CDE733B-3D24-4BEA-A326-26D9849AA892_mid.webp
+  src-small: Patterns/Small/Patterns - 0CDE733B-3D24-4BEA-A326-26D9849AA892_small.webp
   width: 3853
   height: 2302
   normalised_width: 1.6737619461338
   normalised_height: 0.59745652738126
   title: 
   caption: 
-- src-full: Patterns/Patterns - 95BE8C45-B7F1-48F1-9EF5-019525FC0C65.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - 95BE8C45-B7F1-48F1-9EF5-019525FC0C65_thumbnail.jpg
+  order_index: 4
+- src-full: Patterns/Full/Patterns - 95BE8C45-B7F1-48F1-9EF5-019525FC0C65_full.webp
+  src-large: Patterns/Large/Patterns - 95BE8C45-B7F1-48F1-9EF5-019525FC0C65_large.webp
+  src-mid: Patterns/Mid/Patterns - 95BE8C45-B7F1-48F1-9EF5-019525FC0C65_mid.webp
+  src-small: Patterns/Small/Patterns - 95BE8C45-B7F1-48F1-9EF5-019525FC0C65_small.webp
   width: 2323
   height: 3888
   normalised_width: 0.59747942386831
   normalised_height: 1.6736978045631
   title: 
   caption: 
-- src-full: Patterns/Patterns - ECA0ED28-7E6F-42E4-AF10-3BCAAD6A7365.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - ECA0ED28-7E6F-42E4-AF10-3BCAAD6A7365_thumbnail.jpg
-  width: 3110
-  height: 3466
-  normalised_width: 0.89728793998846
-  normalised_height: 1.1144694533762
-  title: 
-  caption: 
-- src-full: Patterns/Patterns - DE5B28B2-5E0A-4870-ACD6-336609595F16.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - DE5B28B2-5E0A-4870-ACD6-336609595F16_thumbnail.jpg
+  order_index: 5
+- src-full: Patterns/Full/Patterns - DE5B28B2-5E0A-4870-ACD6-336609595F16_full.webp
+  src-large: Patterns/Large/Patterns - DE5B28B2-5E0A-4870-ACD6-336609595F16_large.webp
+  src-mid: Patterns/Mid/Patterns - DE5B28B2-5E0A-4870-ACD6-336609595F16_mid.webp
+  src-small: Patterns/Small/Patterns - DE5B28B2-5E0A-4870-ACD6-336609595F16_small.webp
   width: 5013
   height: 3545
   normalised_width: 1.4141043723554
   normalised_height: 0.70716138041093
   title: 
   caption: 
-- src-full: Patterns/Patterns - D0BF21DB-E95A-4F29-8F9B-5BB9A336C7D7.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - D0BF21DB-E95A-4F29-8F9B-5BB9A336C7D7_thumbnail.jpg
+  order_index: 6
+- src-full: Patterns/Full/Patterns - D0BF21DB-E95A-4F29-8F9B-5BB9A336C7D7_full.webp
+  src-large: Patterns/Large/Patterns - D0BF21DB-E95A-4F29-8F9B-5BB9A336C7D7_large.webp
+  src-mid: Patterns/Mid/Patterns - D0BF21DB-E95A-4F29-8F9B-5BB9A336C7D7_mid.webp
+  src-small: Patterns/Small/Patterns - D0BF21DB-E95A-4F29-8F9B-5BB9A336C7D7_small.webp
   width: 5101
   height: 3826
   normalised_width: 1.3332462101411
   normalised_height: 0.75004900999804
   title: 
   caption: 
-- src-full: Patterns/Patterns - C6649667-1235-4581-8F93-6CF6CAE46F73.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - C6649667-1235-4581-8F93-6CF6CAE46F73_thumbnail.jpg
+  order_index: 7
+- src-full: Patterns/Full/Patterns - C6649667-1235-4581-8F93-6CF6CAE46F73_full.webp
+  src-large: Patterns/Large/Patterns - C6649667-1235-4581-8F93-6CF6CAE46F73_large.webp
+  src-mid: Patterns/Mid/Patterns - C6649667-1235-4581-8F93-6CF6CAE46F73_mid.webp
+  src-small: Patterns/Small/Patterns - C6649667-1235-4581-8F93-6CF6CAE46F73_small.webp
   width: 4907
   height: 3855
   normalised_width: 1.2728923476005
   normalised_height: 0.7856123904626
   title: 
   caption: 
-- src-full: Patterns/Patterns - 06214BEB-D864-4916-9C9C-9856AF3D34B2.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - 06214BEB-D864-4916-9C9C-9856AF3D34B2_thumbnail.jpg
+  order_index: 8
+- src-full: Patterns/Full/Patterns - 2D662792-4379-447E-805D-7C489462EB53_full.webp
+  src-large: Patterns/Large/Patterns - 2D662792-4379-447E-805D-7C489462EB53_large.webp
+  src-mid: Patterns/Mid/Patterns - 2D662792-4379-447E-805D-7C489462EB53_mid.webp
+  src-small: Patterns/Small/Patterns - 2D662792-4379-447E-805D-7C489462EB53_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 9
+- src-full: Patterns/Full/Patterns - E1875F62-CB29-472C-AE1C-9E7D3BAE267C_full.webp
+  src-large: Patterns/Large/Patterns - E1875F62-CB29-472C-AE1C-9E7D3BAE267C_large.webp
+  src-mid: Patterns/Mid/Patterns - E1875F62-CB29-472C-AE1C-9E7D3BAE267C_mid.webp
+  src-small: Patterns/Small/Patterns - E1875F62-CB29-472C-AE1C-9E7D3BAE267C_small.webp
+  width: 5128
+  height: 3846
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 10
+- src-full: Patterns/Full/Patterns - B4BFDD9D-B49E-4CC1-BE34-551799CFBDA7_full.webp
+  src-large: Patterns/Large/Patterns - B4BFDD9D-B49E-4CC1-BE34-551799CFBDA7_large.webp
+  src-mid: Patterns/Mid/Patterns - B4BFDD9D-B49E-4CC1-BE34-551799CFBDA7_mid.webp
+  src-small: Patterns/Small/Patterns - B4BFDD9D-B49E-4CC1-BE34-551799CFBDA7_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 11
+- src-full: Patterns/Full/Patterns - 06214BEB-D864-4916-9C9C-9856AF3D34B2_full.webp
+  src-large: Patterns/Large/Patterns - 06214BEB-D864-4916-9C9C-9856AF3D34B2_large.webp
+  src-mid: Patterns/Mid/Patterns - 06214BEB-D864-4916-9C9C-9856AF3D34B2_mid.webp
+  src-small: Patterns/Small/Patterns - 06214BEB-D864-4916-9C9C-9856AF3D34B2_small.webp
   width: 8842
   height: 11158
   normalised_width: 0.79243592041585
   normalised_height: 1.261931689663
   title: 
   caption: 
-- src-full: Patterns/Patterns - FB7D6B51-C0AD-469D-A24D-6535A9AE19F5.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - FB7D6B51-C0AD-469D-A24D-6535A9AE19F5_thumbnail.jpg
+  order_index: 12
+- src-full: Patterns/Full/Patterns - 078E258D-4931-49ED-8024-56EDD340B426_full.webp
+  src-large: Patterns/Large/Patterns - 078E258D-4931-49ED-8024-56EDD340B426_large.webp
+  src-mid: Patterns/Mid/Patterns - 078E258D-4931-49ED-8024-56EDD340B426_mid.webp
+  src-small: Patterns/Small/Patterns - 078E258D-4931-49ED-8024-56EDD340B426_small.webp
+  width: 5084
+  height: 3888
+  normalised_width: 1.3076131687243
+  normalised_height: 0.76475216365067
+  title: 
+  caption: 
+  order_index: 13
+- src-full: Patterns/Full/Patterns - E3A71461-ABDD-4A25-8FC8-E47ABF9A4C57_full.webp
+  src-large: Patterns/Large/Patterns - E3A71461-ABDD-4A25-8FC8-E47ABF9A4C57_large.webp
+  src-mid: Patterns/Mid/Patterns - E3A71461-ABDD-4A25-8FC8-E47ABF9A4C57_mid.webp
+  src-small: Patterns/Small/Patterns - E3A71461-ABDD-4A25-8FC8-E47ABF9A4C57_small.webp
+  width: 3696
+  height: 5184
+  normalised_width: 0.71296296296296
+  normalised_height: 1.4025974025974
+  title: 
+  caption: 
+  order_index: 14
+- src-full: Patterns/Full/Patterns - 67460E95-AA3C-4EED-B9F4-277833478635_full.webp
+  src-large: Patterns/Large/Patterns - 67460E95-AA3C-4EED-B9F4-277833478635_large.webp
+  src-mid: Patterns/Mid/Patterns - 67460E95-AA3C-4EED-B9F4-277833478635_mid.webp
+  src-small: Patterns/Small/Patterns - 67460E95-AA3C-4EED-B9F4-277833478635_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 15
+- src-full: Patterns/Full/Patterns - FB7D6B51-C0AD-469D-A24D-6535A9AE19F5_full.webp
+  src-large: Patterns/Large/Patterns - FB7D6B51-C0AD-469D-A24D-6535A9AE19F5_large.webp
+  src-mid: Patterns/Mid/Patterns - FB7D6B51-C0AD-469D-A24D-6535A9AE19F5_mid.webp
+  src-small: Patterns/Small/Patterns - FB7D6B51-C0AD-469D-A24D-6535A9AE19F5_small.webp
   width: 4873
   height: 3655
   normalised_width: 1.3332421340629
   normalised_height: 0.75005130309871
   title: 
   caption: 
-- src-full: Patterns/Patterns - 28F23061-5774-4416-8DDB-92CC59616B7F.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - 28F23061-5774-4416-8DDB-92CC59616B7F_thumbnail.jpg
+  order_index: 16
+- src-full: Patterns/Full/Patterns - 28F23061-5774-4416-8DDB-92CC59616B7F_full.webp
+  src-large: Patterns/Large/Patterns - 28F23061-5774-4416-8DDB-92CC59616B7F_large.webp
+  src-mid: Patterns/Mid/Patterns - 28F23061-5774-4416-8DDB-92CC59616B7F_mid.webp
+  src-small: Patterns/Small/Patterns - 28F23061-5774-4416-8DDB-92CC59616B7F_small.webp
   width: 3637
   height: 5066
   normalised_width: 0.71792341097513
   normalised_height: 1.3929062414078
   title: 
   caption: 
-- src-full: Patterns/Patterns - 6DBC4EB4-8E16-49F3-B96B-A67A1F6B8CF2.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - 6DBC4EB4-8E16-49F3-B96B-A67A1F6B8CF2_thumbnail.jpg
+  order_index: 17
+- src-full: Patterns/Full/Patterns - FA15205F-110B-4B76-A623-8CE8783DA091_full.webp
+  src-large: Patterns/Large/Patterns - FA15205F-110B-4B76-A623-8CE8783DA091_large.webp
+  src-mid: Patterns/Mid/Patterns - FA15205F-110B-4B76-A623-8CE8783DA091_mid.webp
+  src-small: Patterns/Small/Patterns - FA15205F-110B-4B76-A623-8CE8783DA091_small.webp
   width: 5184
   height: 3888
   normalised_width: 1.3333333333333
   normalised_height: 0.75
   title: 
   caption: 
-- src-full: Patterns/Patterns - EB5AA104-8401-4503-AF79-EDC70BAEEFD9.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - EB5AA104-8401-4503-AF79-EDC70BAEEFD9_thumbnail.jpg
+  order_index: 18
+- src-full: Patterns/Full/Patterns - 407C6430-7B81-41B9-9920-5353824C9BBD_full.webp
+  src-large: Patterns/Large/Patterns - 407C6430-7B81-41B9-9920-5353824C9BBD_large.webp
+  src-mid: Patterns/Mid/Patterns - 407C6430-7B81-41B9-9920-5353824C9BBD_mid.webp
+  src-small: Patterns/Small/Patterns - 407C6430-7B81-41B9-9920-5353824C9BBD_small.webp
+  width: 3866
+  height: 5155
+  normalised_width: 0.74995150339476
+  normalised_height: 1.3334195550957
+  title: 
+  caption: 
+  order_index: 19
+- src-full: Patterns/Full/Patterns - 95C8E4A5-1D70-4F0A-9568-D23024DEDFF8_full.webp
+  src-large: Patterns/Large/Patterns - 95C8E4A5-1D70-4F0A-9568-D23024DEDFF8_large.webp
+  src-mid: Patterns/Mid/Patterns - 95C8E4A5-1D70-4F0A-9568-D23024DEDFF8_mid.webp
+  src-small: Patterns/Small/Patterns - 95C8E4A5-1D70-4F0A-9568-D23024DEDFF8_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 20
+- src-full: Patterns/Full/Patterns - D0DBD883-CFB2-4F89-BE54-AB3075F32D84_full.webp
+  src-large: Patterns/Large/Patterns - D0DBD883-CFB2-4F89-BE54-AB3075F32D84_large.webp
+  src-mid: Patterns/Mid/Patterns - D0DBD883-CFB2-4F89-BE54-AB3075F32D84_mid.webp
+  src-small: Patterns/Small/Patterns - D0DBD883-CFB2-4F89-BE54-AB3075F32D84_small.webp
   width: 3888
   height: 5184
   normalised_width: 0.75
   normalised_height: 1.3333333333333
   title: 
   caption: 
-- src-full: Patterns/Patterns - 3D73A90E-FDB7-4871-B6C8-3E088D338D16.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - 3D73A90E-FDB7-4871-B6C8-3E088D338D16_thumbnail.jpg
+  order_index: 21
+- src-full: Patterns/Full/Patterns - 6DBC4EB4-8E16-49F3-B96B-A67A1F6B8CF2_full.webp
+  src-large: Patterns/Large/Patterns - 6DBC4EB4-8E16-49F3-B96B-A67A1F6B8CF2_large.webp
+  src-mid: Patterns/Mid/Patterns - 6DBC4EB4-8E16-49F3-B96B-A67A1F6B8CF2_mid.webp
+  src-small: Patterns/Small/Patterns - 6DBC4EB4-8E16-49F3-B96B-A67A1F6B8CF2_small.webp
   width: 5184
   height: 3888
   normalised_width: 1.3333333333333
   normalised_height: 0.75
   title: 
   caption: 
-- src-full: Patterns/Patterns - 7A76BCD4-6F73-4889-BB9B-D264A633D482.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - 7A76BCD4-6F73-4889-BB9B-D264A633D482_thumbnail.jpg
+  order_index: 22
+- src-full: Patterns/Full/Patterns - 516B5A2A-20D4-465C-B2C0-9EF86523818A_full.webp
+  src-large: Patterns/Large/Patterns - 516B5A2A-20D4-465C-B2C0-9EF86523818A_large.webp
+  src-mid: Patterns/Mid/Patterns - 516B5A2A-20D4-465C-B2C0-9EF86523818A_mid.webp
+  src-small: Patterns/Small/Patterns - 516B5A2A-20D4-465C-B2C0-9EF86523818A_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 23
+- src-full: Patterns/Full/Patterns - AAD76603-BCA9-4296-B64C-05B88AA93CD1_full.webp
+  src-large: Patterns/Large/Patterns - AAD76603-BCA9-4296-B64C-05B88AA93CD1_large.webp
+  src-mid: Patterns/Mid/Patterns - AAD76603-BCA9-4296-B64C-05B88AA93CD1_mid.webp
+  src-small: Patterns/Small/Patterns - AAD76603-BCA9-4296-B64C-05B88AA93CD1_small.webp
+  width: 3648
+  height: 4864
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 
+  order_index: 24
+- src-full: Patterns/Full/Patterns - 36288C80-7DCB-4087-838E-88C622A6C7F8_full.webp
+  src-large: Patterns/Large/Patterns - 36288C80-7DCB-4087-838E-88C622A6C7F8_large.webp
+  src-mid: Patterns/Mid/Patterns - 36288C80-7DCB-4087-838E-88C622A6C7F8_mid.webp
+  src-small: Patterns/Small/Patterns - 36288C80-7DCB-4087-838E-88C622A6C7F8_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 25
+- src-full: Patterns/Full/Patterns - 33B0B29C-4F21-41A8-AFAC-E0D4DBD1D235_full.webp
+  src-large: Patterns/Large/Patterns - 33B0B29C-4F21-41A8-AFAC-E0D4DBD1D235_large.webp
+  src-mid: Patterns/Mid/Patterns - 33B0B29C-4F21-41A8-AFAC-E0D4DBD1D235_mid.webp
+  src-small: Patterns/Small/Patterns - 33B0B29C-4F21-41A8-AFAC-E0D4DBD1D235_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 26
+- src-full: Patterns/Full/Patterns - 258037BE-580A-4BB2-B9D4-00AF6399B543_full.webp
+  src-large: Patterns/Large/Patterns - 258037BE-580A-4BB2-B9D4-00AF6399B543_large.webp
+  src-mid: Patterns/Mid/Patterns - 258037BE-580A-4BB2-B9D4-00AF6399B543_mid.webp
+  src-small: Patterns/Small/Patterns - 258037BE-580A-4BB2-B9D4-00AF6399B543_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 27
+- src-full: Patterns/Full/Patterns - D6E6D0FA-6245-480F-A862-E98629ECA17F_full.webp
+  src-large: Patterns/Large/Patterns - D6E6D0FA-6245-480F-A862-E98629ECA17F_large.webp
+  src-mid: Patterns/Mid/Patterns - D6E6D0FA-6245-480F-A862-E98629ECA17F_mid.webp
+  src-small: Patterns/Small/Patterns - D6E6D0FA-6245-480F-A862-E98629ECA17F_small.webp
+  width: 3888
+  height: 5184
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 
+  order_index: 28
+- src-full: Patterns/Full/Patterns - B1C46D7A-3D9C-4450-9FD2-D91BE24EA046_full.webp
+  src-large: Patterns/Large/Patterns - B1C46D7A-3D9C-4450-9FD2-D91BE24EA046_large.webp
+  src-mid: Patterns/Mid/Patterns - B1C46D7A-3D9C-4450-9FD2-D91BE24EA046_mid.webp
+  src-small: Patterns/Small/Patterns - B1C46D7A-3D9C-4450-9FD2-D91BE24EA046_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 29
+- src-full: Patterns/Full/Patterns - 715B6B5A-5838-4490-9D94-E80114EE961B_full.webp
+  src-large: Patterns/Large/Patterns - 715B6B5A-5838-4490-9D94-E80114EE961B_large.webp
+  src-mid: Patterns/Mid/Patterns - 715B6B5A-5838-4490-9D94-E80114EE961B_mid.webp
+  src-small: Patterns/Small/Patterns - 715B6B5A-5838-4490-9D94-E80114EE961B_small.webp
+  width: 2898
+  height: 3865
+  normalised_width: 0.74980595084088
+  normalised_height: 1.3336783988958
+  title: 
+  caption: 
+  order_index: 30
+- src-full: Patterns/Full/Patterns - 7A76BCD4-6F73-4889-BB9B-D264A633D482_full.webp
+  src-large: Patterns/Large/Patterns - 7A76BCD4-6F73-4889-BB9B-D264A633D482_large.webp
+  src-mid: Patterns/Mid/Patterns - 7A76BCD4-6F73-4889-BB9B-D264A633D482_mid.webp
+  src-small: Patterns/Small/Patterns - 7A76BCD4-6F73-4889-BB9B-D264A633D482_small.webp
   width: 3673
   height: 4897
   normalised_width: 0.75005105166428
   normalised_height: 1.3332425809965
   title: 
   caption: 
-- src-full: Patterns/Patterns - 96EF37AA-C979-4ECF-88F1-C424F2DFA510.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - 96EF37AA-C979-4ECF-88F1-C424F2DFA510_thumbnail.jpg
+  order_index: 31
+- src-full: Patterns/Full/Patterns - 4609FAD0-A624-4494-A805-8837A4237EEC_full.webp
+  src-large: Patterns/Large/Patterns - 4609FAD0-A624-4494-A805-8837A4237EEC_large.webp
+  src-mid: Patterns/Mid/Patterns - 4609FAD0-A624-4494-A805-8837A4237EEC_mid.webp
+  src-small: Patterns/Small/Patterns - 4609FAD0-A624-4494-A805-8837A4237EEC_small.webp
+  width: 3888
+  height: 5184
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 
+  order_index: 32
+- src-full: Patterns/Full/Patterns - F5D67C64-57AD-41AF-B174-78D3D51392FF_full.webp
+  src-large: Patterns/Large/Patterns - F5D67C64-57AD-41AF-B174-78D3D51392FF_large.webp
+  src-mid: Patterns/Mid/Patterns - F5D67C64-57AD-41AF-B174-78D3D51392FF_mid.webp
+  src-small: Patterns/Small/Patterns - F5D67C64-57AD-41AF-B174-78D3D51392FF_small.webp
   width: 5184
   height: 3888
   normalised_width: 1.3333333333333
   normalised_height: 0.75
   title: 
   caption: 
-- src-full: Patterns/Patterns - 42EB9628-A333-4C08-9F69-F4A273E9CAA7.jpg
-  src-thumbnail: Patterns/Thumbnail/Patterns - 42EB9628-A333-4C08-9F69-F4A273E9CAA7_thumbnail.jpg
+  order_index: 33
+- src-full: Patterns/Full/Patterns - 96EF37AA-C979-4ECF-88F1-C424F2DFA510_full.webp
+  src-large: Patterns/Large/Patterns - 96EF37AA-C979-4ECF-88F1-C424F2DFA510_large.webp
+  src-mid: Patterns/Mid/Patterns - 96EF37AA-C979-4ECF-88F1-C424F2DFA510_mid.webp
+  src-small: Patterns/Small/Patterns - 96EF37AA-C979-4ECF-88F1-C424F2DFA510_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 34
+- src-full: Patterns/Full/Patterns - 42EB9628-A333-4C08-9F69-F4A273E9CAA7_full.webp
+  src-large: Patterns/Large/Patterns - 42EB9628-A333-4C08-9F69-F4A273E9CAA7_large.webp
+  src-mid: Patterns/Mid/Patterns - 42EB9628-A333-4C08-9F69-F4A273E9CAA7_mid.webp
+  src-small: Patterns/Small/Patterns - 42EB9628-A333-4C08-9F69-F4A273E9CAA7_small.webp
   width: 5142
   height: 3857
   normalised_width: 1.3331604874255
   normalised_height: 0.75009723842863
   title: 
   caption: 
+  order_index: 35
+- src-full: Patterns/Full/Patterns - 10F87C3A-0FFF-44AA-98A7-6D8096FBCEA8_full.webp
+  src-large: Patterns/Large/Patterns - 10F87C3A-0FFF-44AA-98A7-6D8096FBCEA8_large.webp
+  src-mid: Patterns/Mid/Patterns - 10F87C3A-0FFF-44AA-98A7-6D8096FBCEA8_mid.webp
+  src-small: Patterns/Small/Patterns - 10F87C3A-0FFF-44AA-98A7-6D8096FBCEA8_small.webp
+  width: 5083
+  height: 3812
+  normalised_width: 1.3334207764953
+  normalised_height: 0.74995081644698
+  title: 
+  caption: 
+  order_index: 36

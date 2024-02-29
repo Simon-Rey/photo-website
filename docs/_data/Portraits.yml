@@ -1,104 +1,330 @@
-- src-full: Portraits/Portraits - 2849991C-5DD2-4E21-9C83-A002428C72F2.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - 2849991C-5DD2-4E21-9C83-A002428C72F2_thumbnail.jpg
+- src-full: Portraits/Full/Portraits - 029818B3-D23C-4B7C-B855-AC098BF421C4_full.webp
+  src-large: Portraits/Large/Portraits - 029818B3-D23C-4B7C-B855-AC098BF421C4_large.webp
+  src-mid: Portraits/Mid/Portraits - 029818B3-D23C-4B7C-B855-AC098BF421C4_mid.webp
+  src-small: Portraits/Small/Portraits - 029818B3-D23C-4B7C-B855-AC098BF421C4_small.webp
   width: 4592
   height: 3448
   normalised_width: 1.3317865429234
   normalised_height: 0.75087108013937
   title: 
   caption: 
-- src-full: Portraits/Portraits - 44025D67-928C-46C0-8ACA-E34D4C47A4CF.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - 44025D67-928C-46C0-8ACA-E34D4C47A4CF_thumbnail.jpg
+  order_index: 1
+- src-full: Portraits/Full/Portraits - 2849991C-5DD2-4E21-9C83-A002428C72F2_full.webp
+  src-large: Portraits/Large/Portraits - 2849991C-5DD2-4E21-9C83-A002428C72F2_large.webp
+  src-mid: Portraits/Mid/Portraits - 2849991C-5DD2-4E21-9C83-A002428C72F2_mid.webp
+  src-small: Portraits/Small/Portraits - 2849991C-5DD2-4E21-9C83-A002428C72F2_small.webp
+  width: 4592
+  height: 3448
+  normalised_width: 1.3317865429234
+  normalised_height: 0.75087108013937
+  title: 
+  caption: 
+  order_index: 2
+- src-full: Portraits/Full/Portraits - 44025D67-928C-46C0-8ACA-E34D4C47A4CF_full.webp
+  src-large: Portraits/Large/Portraits - 44025D67-928C-46C0-8ACA-E34D4C47A4CF_large.webp
+  src-mid: Portraits/Mid/Portraits - 44025D67-928C-46C0-8ACA-E34D4C47A4CF_mid.webp
+  src-small: Portraits/Small/Portraits - 44025D67-928C-46C0-8ACA-E34D4C47A4CF_small.webp
   width: 3448
   height: 4592
   normalised_width: 0.75087108013937
   normalised_height: 1.3317865429234
   title: 
   caption: 
-- src-full: Portraits/Portraits - FF8AD463-F1E6-4086-9660-6D369C166767.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - FF8AD463-F1E6-4086-9660-6D369C166767_thumbnail.jpg
+  order_index: 3
+- src-full: Portraits/Full/Portraits - FF8AD463-F1E6-4086-9660-6D369C166767_full.webp
+  src-large: Portraits/Large/Portraits - FF8AD463-F1E6-4086-9660-6D369C166767_large.webp
+  src-mid: Portraits/Mid/Portraits - FF8AD463-F1E6-4086-9660-6D369C166767_mid.webp
+  src-small: Portraits/Small/Portraits - FF8AD463-F1E6-4086-9660-6D369C166767_small.webp
   width: 3448
   height: 4133
   normalised_width: 0.83426082748609
   normalised_height: 1.1986658932715
   title: 
   caption: 
-- src-full: Portraits/Portraits - F21F4FC2-320A-4900-B887-9FBFF9F1C62E.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - F21F4FC2-320A-4900-B887-9FBFF9F1C62E_thumbnail.jpg
+  order_index: 4
+- src-full: Portraits/Full/Portraits - F21F4FC2-320A-4900-B887-9FBFF9F1C62E_full.webp
+  src-large: Portraits/Large/Portraits - F21F4FC2-320A-4900-B887-9FBFF9F1C62E_large.webp
+  src-mid: Portraits/Mid/Portraits - F21F4FC2-320A-4900-B887-9FBFF9F1C62E_mid.webp
+  src-small: Portraits/Small/Portraits - F21F4FC2-320A-4900-B887-9FBFF9F1C62E_small.webp
   width: 5184
   height: 3888
   normalised_width: 1.3333333333333
   normalised_height: 0.75
   title: 
   caption: 
-- src-full: Portraits/Portraits - A460803D-2B64-4A6C-9F63-E4BF89E87FAB.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - A460803D-2B64-4A6C-9F63-E4BF89E87FAB_thumbnail.jpg
+  order_index: 5
+- src-full: Portraits/Full/Portraits - 39C85753-0C27-474A-9629-EF80B0344B4C_full.webp
+  src-large: Portraits/Large/Portraits - 39C85753-0C27-474A-9629-EF80B0344B4C_large.webp
+  src-mid: Portraits/Mid/Portraits - 39C85753-0C27-474A-9629-EF80B0344B4C_mid.webp
+  src-small: Portraits/Small/Portraits - 39C85753-0C27-474A-9629-EF80B0344B4C_small.webp
+  width: 3622
+  height: 5184
+  normalised_width: 0.69868827160494
+  normalised_height: 1.431253451132
+  title: 
+  caption: 
+  order_index: 6
+- src-full: Portraits/Full/Portraits - A460803D-2B64-4A6C-9F63-E4BF89E87FAB_full.webp
+  src-large: Portraits/Large/Portraits - A460803D-2B64-4A6C-9F63-E4BF89E87FAB_large.webp
+  src-mid: Portraits/Mid/Portraits - A460803D-2B64-4A6C-9F63-E4BF89E87FAB_mid.webp
+  src-small: Portraits/Small/Portraits - A460803D-2B64-4A6C-9F63-E4BF89E87FAB_small.webp
   width: 3488
   height: 4932
   normalised_width: 0.70721816707218
   normalised_height: 1.4139908256881
   title: 
   caption: 
-- src-full: Portraits/Portraits - 97EFD5CD-A77C-438D-8F71-25F44B0A9BF2.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - 97EFD5CD-A77C-438D-8F71-25F44B0A9BF2_thumbnail.jpg
+  order_index: 7
+- src-full: Portraits/Full/Portraits - 9C25F6FA-9B1E-4076-B72B-F905231CFB30_full.webp
+  src-large: Portraits/Large/Portraits - 9C25F6FA-9B1E-4076-B72B-F905231CFB30_large.webp
+  src-mid: Portraits/Mid/Portraits - 9C25F6FA-9B1E-4076-B72B-F905231CFB30_mid.webp
+  src-small: Portraits/Small/Portraits - 9C25F6FA-9B1E-4076-B72B-F905231CFB30_small.webp
+  width: 5146
+  height: 3859
+  normalised_width: 1.3335060896605
+  normalised_height: 0.74990283715507
+  title: 
+  caption: 
+  order_index: 8
+- src-full: Portraits/Full/Portraits - 97EFD5CD-A77C-438D-8F71-25F44B0A9BF2_full.webp
+  src-large: Portraits/Large/Portraits - 97EFD5CD-A77C-438D-8F71-25F44B0A9BF2_large.webp
+  src-mid: Portraits/Mid/Portraits - 97EFD5CD-A77C-438D-8F71-25F44B0A9BF2_mid.webp
+  src-small: Portraits/Small/Portraits - 97EFD5CD-A77C-438D-8F71-25F44B0A9BF2_small.webp
   width: 3888
   height: 5184
   normalised_width: 0.75
   normalised_height: 1.3333333333333
   title: 
   caption: 
-- src-full: Portraits/Portraits - A6280B27-060E-4A34-9C22-AE1608D63BDB.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - A6280B27-060E-4A34-9C22-AE1608D63BDB_thumbnail.jpg
+  order_index: 9
+- src-full: Portraits/Full/Portraits - A6280B27-060E-4A34-9C22-AE1608D63BDB_full.webp
+  src-large: Portraits/Large/Portraits - A6280B27-060E-4A34-9C22-AE1608D63BDB_large.webp
+  src-mid: Portraits/Mid/Portraits - A6280B27-060E-4A34-9C22-AE1608D63BDB_mid.webp
+  src-small: Portraits/Small/Portraits - A6280B27-060E-4A34-9C22-AE1608D63BDB_small.webp
   width: 5184
   height: 3888
   normalised_width: 1.3333333333333
   normalised_height: 0.75
   title: 
   caption: 
-- src-full: Portraits/Portraits - 8DB493D1-B8FE-4594-B99B-51E862EA33D0.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - 8DB493D1-B8FE-4594-B99B-51E862EA33D0_thumbnail.jpg
+  order_index: 10
+- src-full: Portraits/Full/Portraits - 33F294B5-458E-4CC5-99E1-9A1050708C74_full.webp
+  src-large: Portraits/Large/Portraits - 33F294B5-458E-4CC5-99E1-9A1050708C74_large.webp
+  src-mid: Portraits/Mid/Portraits - 33F294B5-458E-4CC5-99E1-9A1050708C74_mid.webp
+  src-small: Portraits/Small/Portraits - 33F294B5-458E-4CC5-99E1-9A1050708C74_small.webp
+  width: 3888
+  height: 5184
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 
+  order_index: 11
+- src-full: Portraits/Full/Portraits - 17B8657A-1131-4412-AF6A-4F61F163322B_full.webp
+  src-large: Portraits/Large/Portraits - 17B8657A-1131-4412-AF6A-4F61F163322B_large.webp
+  src-mid: Portraits/Mid/Portraits - 17B8657A-1131-4412-AF6A-4F61F163322B_mid.webp
+  src-small: Portraits/Small/Portraits - 17B8657A-1131-4412-AF6A-4F61F163322B_small.webp
+  width: 3888
+  height: 5184
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 
+  order_index: 12
+- src-full: Portraits/Full/Portraits - 5373B553-2D20-476F-AA9A-57E736663EF8_full.webp
+  src-large: Portraits/Large/Portraits - 5373B553-2D20-476F-AA9A-57E736663EF8_large.webp
+  src-mid: Portraits/Mid/Portraits - 5373B553-2D20-476F-AA9A-57E736663EF8_mid.webp
+  src-small: Portraits/Small/Portraits - 5373B553-2D20-476F-AA9A-57E736663EF8_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 13
+- src-full: Portraits/Full/Portraits - 3E810D04-05C7-4D9E-A8CD-FBF38AEC1B6E_full.webp
+  src-large: Portraits/Large/Portraits - 3E810D04-05C7-4D9E-A8CD-FBF38AEC1B6E_large.webp
+  src-mid: Portraits/Mid/Portraits - 3E810D04-05C7-4D9E-A8CD-FBF38AEC1B6E_mid.webp
+  src-small: Portraits/Small/Portraits - 3E810D04-05C7-4D9E-A8CD-FBF38AEC1B6E_small.webp
+  width: 3562
+  height: 5036
+  normalised_width: 0.70730738681493
+  normalised_height: 1.4138124649074
+  title: 
+  caption: 
+  order_index: 14
+- src-full: Portraits/Full/Portraits - 8DB493D1-B8FE-4594-B99B-51E862EA33D0_full.webp
+  src-large: Portraits/Large/Portraits - 8DB493D1-B8FE-4594-B99B-51E862EA33D0_large.webp
+  src-mid: Portraits/Mid/Portraits - 8DB493D1-B8FE-4594-B99B-51E862EA33D0_mid.webp
+  src-small: Portraits/Small/Portraits - 8DB493D1-B8FE-4594-B99B-51E862EA33D0_small.webp
   width: 5159
   height: 3869
   normalised_width: 1.3334194882399
   normalised_height: 0.74995154099632
   title: 
   caption: 
-- src-full: Portraits/Portraits - 5E572EF1-88F5-40C3-821F-31221DEE86CE.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - 5E572EF1-88F5-40C3-821F-31221DEE86CE_thumbnail.jpg
+  order_index: 15
+- src-full: Portraits/Full/Portraits - 5E572EF1-88F5-40C3-821F-31221DEE86CE_full.webp
+  src-large: Portraits/Large/Portraits - 5E572EF1-88F5-40C3-821F-31221DEE86CE_large.webp
+  src-mid: Portraits/Mid/Portraits - 5E572EF1-88F5-40C3-821F-31221DEE86CE_mid.webp
+  src-small: Portraits/Small/Portraits - 5E572EF1-88F5-40C3-821F-31221DEE86CE_small.webp
   width: 5184
   height: 2229
   normalised_width: 2.3257065948856
   normalised_height: 0.42997685185185
   title: 
   caption: 
-- src-full: Portraits/Portraits - EC5FF215-4BDD-4F4D-918C-3EC449C56E67.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - EC5FF215-4BDD-4F4D-918C-3EC449C56E67_thumbnail.jpg
-  width: 5090
-  height: 3600
-  normalised_width: 1.4138888888889
-  normalised_height: 0.70726915520629
+  order_index: 16
+- src-full: Portraits/Full/Portraits - 60DE1C8A-7519-489C-A5AE-D8DE373763A4_full.webp
+  src-large: Portraits/Large/Portraits - 60DE1C8A-7519-489C-A5AE-D8DE373763A4_large.webp
+  src-mid: Portraits/Mid/Portraits - 60DE1C8A-7519-489C-A5AE-D8DE373763A4_mid.webp
+  src-small: Portraits/Small/Portraits - 60DE1C8A-7519-489C-A5AE-D8DE373763A4_small.webp
+  width: 3468
+  height: 4624
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
   title: 
   caption: 
-- src-full: Portraits/Portraits - 3598AED5-D9A9-4E6E-9F6E-8C687F1B024A.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - 3598AED5-D9A9-4E6E-9F6E-8C687F1B024A_thumbnail.jpg
-  width: 3666
-  height: 5184
-  normalised_width: 0.70717592592593
-  normalised_height: 1.4140752864157
-  title: 
-  caption: 
-- src-full: Portraits/Portraits - 0023C3E8-3AE2-483D-9458-76641353A5ED.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - 0023C3E8-3AE2-483D-9458-76641353A5ED_thumbnail.jpg
-  width: 5101
-  height: 3826
-  normalised_width: 1.3332462101411
-  normalised_height: 0.75004900999804
-  title: 
-  caption: 
-- src-full: Portraits/Portraits - A446B8E5-DA85-4443-87B9-22215A9FC08A.jpg
-  src-thumbnail: Portraits/Thumbnail/Portraits - A446B8E5-DA85-4443-87B9-22215A9FC08A_thumbnail.jpg
+  order_index: 17
+- src-full: Portraits/Full/Portraits - 258C48C5-A8D2-477B-8BC5-C62A75F50C70_full.webp
+  src-large: Portraits/Large/Portraits - 258C48C5-A8D2-477B-8BC5-C62A75F50C70_large.webp
+  src-mid: Portraits/Mid/Portraits - 258C48C5-A8D2-477B-8BC5-C62A75F50C70_mid.webp
+  src-small: Portraits/Small/Portraits - 258C48C5-A8D2-477B-8BC5-C62A75F50C70_small.webp
   width: 5184
   height: 3888
   normalised_width: 1.3333333333333
   normalised_height: 0.75
   title: 
   caption: 
+  order_index: 18
+- src-full: Portraits/Full/Portraits - 794CD79E-A32C-43CB-BF47-B02AAD60C38B_full.webp
+  src-large: Portraits/Large/Portraits - 794CD79E-A32C-43CB-BF47-B02AAD60C38B_large.webp
+  src-mid: Portraits/Mid/Portraits - 794CD79E-A32C-43CB-BF47-B02AAD60C38B_mid.webp
+  src-small: Portraits/Small/Portraits - 794CD79E-A32C-43CB-BF47-B02AAD60C38B_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 19
+- src-full: Portraits/Full/Portraits - CF85F3D3-D3D8-4478-AE73-932260AAE615_full.webp
+  src-large: Portraits/Large/Portraits - CF85F3D3-D3D8-4478-AE73-932260AAE615_large.webp
+  src-mid: Portraits/Mid/Portraits - CF85F3D3-D3D8-4478-AE73-932260AAE615_mid.webp
+  src-small: Portraits/Small/Portraits - CF85F3D3-D3D8-4478-AE73-932260AAE615_small.webp
+  width: 3888
+  height: 5184
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 
+  order_index: 20
+- src-full: Portraits/Full/Portraits - 40D0A004-E8BB-4828-9D46-76BD8553D52F_full.webp
+  src-large: Portraits/Large/Portraits - 40D0A004-E8BB-4828-9D46-76BD8553D52F_large.webp
+  src-mid: Portraits/Mid/Portraits - 40D0A004-E8BB-4828-9D46-76BD8553D52F_mid.webp
+  src-small: Portraits/Small/Portraits - 40D0A004-E8BB-4828-9D46-76BD8553D52F_small.webp
+  width: 4817
+  height: 3613
+  normalised_width: 1.3332410738998
+  normalised_height: 0.75005189952252
+  title: 
+  caption: 
+  order_index: 21
+- src-full: Portraits/Full/Portraits - 6F8A0BFF-7AE8-49E8-8499-115BC09B333B_full.webp
+  src-large: Portraits/Large/Portraits - 6F8A0BFF-7AE8-49E8-8499-115BC09B333B_large.webp
+  src-mid: Portraits/Mid/Portraits - 6F8A0BFF-7AE8-49E8-8499-115BC09B333B_mid.webp
+  src-small: Portraits/Small/Portraits - 6F8A0BFF-7AE8-49E8-8499-115BC09B333B_small.webp
+  width: 3815
+  height: 7308
+  normalised_width: 0.522030651341
+  normalised_height: 1.9155963302752
+  title: 
+  caption: 
+  order_index: 22
+- src-full: Portraits/Full/Portraits - EC5FF215-4BDD-4F4D-918C-3EC449C56E67_full.webp
+  src-large: Portraits/Large/Portraits - EC5FF215-4BDD-4F4D-918C-3EC449C56E67_large.webp
+  src-mid: Portraits/Mid/Portraits - EC5FF215-4BDD-4F4D-918C-3EC449C56E67_mid.webp
+  src-small: Portraits/Small/Portraits - EC5FF215-4BDD-4F4D-918C-3EC449C56E67_small.webp
+  width: 5090
+  height: 3600
+  normalised_width: 1.4138888888889
+  normalised_height: 0.70726915520629
+  title: 
+  caption: 
+  order_index: 23
+- src-full: Portraits/Full/Portraits - 3598AED5-D9A9-4E6E-9F6E-8C687F1B024A_full.webp
+  src-large: Portraits/Large/Portraits - 3598AED5-D9A9-4E6E-9F6E-8C687F1B024A_large.webp
+  src-mid: Portraits/Mid/Portraits - 3598AED5-D9A9-4E6E-9F6E-8C687F1B024A_mid.webp
+  src-small: Portraits/Small/Portraits - 3598AED5-D9A9-4E6E-9F6E-8C687F1B024A_small.webp
+  width: 3666
+  height: 5184
+  normalised_width: 0.70717592592593
+  normalised_height: 1.4140752864157
+  title: 
+  caption: 
+  order_index: 24
+- src-full: Portraits/Full/Portraits - 0023C3E8-3AE2-483D-9458-76641353A5ED_full.webp
+  src-large: Portraits/Large/Portraits - 0023C3E8-3AE2-483D-9458-76641353A5ED_large.webp
+  src-mid: Portraits/Mid/Portraits - 0023C3E8-3AE2-483D-9458-76641353A5ED_mid.webp
+  src-small: Portraits/Small/Portraits - 0023C3E8-3AE2-483D-9458-76641353A5ED_small.webp
+  width: 5101
+  height: 3826
+  normalised_width: 1.3332462101411
+  normalised_height: 0.75004900999804
+  title: 
+  caption: 
+  order_index: 25
+- src-full: Portraits/Full/Portraits - A446B8E5-DA85-4443-87B9-22215A9FC08A_full.webp
+  src-large: Portraits/Large/Portraits - A446B8E5-DA85-4443-87B9-22215A9FC08A_large.webp
+  src-mid: Portraits/Mid/Portraits - A446B8E5-DA85-4443-87B9-22215A9FC08A_mid.webp
+  src-small: Portraits/Small/Portraits - A446B8E5-DA85-4443-87B9-22215A9FC08A_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 26
+- src-full: Portraits/Full/Portraits - 1D1CAAB5-7615-4C0A-9FDD-1DB22BECD070_full.webp
+  src-large: Portraits/Large/Portraits - 1D1CAAB5-7615-4C0A-9FDD-1DB22BECD070_large.webp
+  src-mid: Portraits/Mid/Portraits - 1D1CAAB5-7615-4C0A-9FDD-1DB22BECD070_mid.webp
+  src-small: Portraits/Small/Portraits - 1D1CAAB5-7615-4C0A-9FDD-1DB22BECD070_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 27
+- src-full: Portraits/Full/Portraits - 20ED5733-4541-49EC-8F27-C1FEF01A95F5_full.webp
+  src-large: Portraits/Large/Portraits - 20ED5733-4541-49EC-8F27-C1FEF01A95F5_large.webp
+  src-mid: Portraits/Mid/Portraits - 20ED5733-4541-49EC-8F27-C1FEF01A95F5_mid.webp
+  src-small: Portraits/Small/Portraits - 20ED5733-4541-49EC-8F27-C1FEF01A95F5_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 28
+- src-full: Portraits/Full/Portraits - 1AF207E2-8668-4185-8E17-2C516372A360_full.webp
+  src-large: Portraits/Large/Portraits - 1AF207E2-8668-4185-8E17-2C516372A360_large.webp
+  src-mid: Portraits/Mid/Portraits - 1AF207E2-8668-4185-8E17-2C516372A360_mid.webp
+  src-small: Portraits/Small/Portraits - 1AF207E2-8668-4185-8E17-2C516372A360_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 29
+- src-full: Portraits/Full/Portraits - F4693881-AEB0-4BAE-A07C-946B515DEE1F_full.webp
+  src-large: Portraits/Large/Portraits - F4693881-AEB0-4BAE-A07C-946B515DEE1F_large.webp
+  src-mid: Portraits/Mid/Portraits - F4693881-AEB0-4BAE-A07C-946B515DEE1F_mid.webp
+  src-small: Portraits/Small/Portraits - F4693881-AEB0-4BAE-A07C-946B515DEE1F_small.webp
+  width: 5184
+  height: 3888
+  normalised_width: 1.3333333333333
+  normalised_height: 0.75
+  title: 
+  caption: 
+  order_index: 30

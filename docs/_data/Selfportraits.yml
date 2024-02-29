@@ -1,64 +1,143 @@
-- src-full: Selfportraits/Selfportraits - 2CA43FA0-7626-4857-BA44-F67D27450713.jpg
-  src-thumbnail: Selfportraits/Thumbnail/Selfportraits - 2CA43FA0-7626-4857-BA44-F67D27450713_thumbnail.jpg
+- src-full: Selfportraits/Full/Selfportraits - E2C5DAD4-30E3-44EF-AC4F-C93D2E91DABA_full.webp
+  src-large: Selfportraits/Large/Selfportraits - E2C5DAD4-30E3-44EF-AC4F-C93D2E91DABA_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - E2C5DAD4-30E3-44EF-AC4F-C93D2E91DABA_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - E2C5DAD4-30E3-44EF-AC4F-C93D2E91DABA_small.webp
+  width: 3888
+  height: 5184
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 
+  order_index: 1
+- src-full: Selfportraits/Full/Selfportraits - 79CD0A17-9117-4EDA-A185-865046057D00_full.webp
+  src-large: Selfportraits/Large/Selfportraits - 79CD0A17-9117-4EDA-A185-865046057D00_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - 79CD0A17-9117-4EDA-A185-865046057D00_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - 79CD0A17-9117-4EDA-A185-865046057D00_small.webp
+  width: 3843
+  height: 5080
+  normalised_width: 0.75649606299213
+  normalised_height: 1.3218839448348
+  title: 
+  caption: 
+  order_index: 2
+- src-full: Selfportraits/Full/Selfportraits - 2CA43FA0-7626-4857-BA44-F67D27450713_full.webp
+  src-large: Selfportraits/Large/Selfportraits - 2CA43FA0-7626-4857-BA44-F67D27450713_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - 2CA43FA0-7626-4857-BA44-F67D27450713_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - 2CA43FA0-7626-4857-BA44-F67D27450713_small.webp
   width: 2764
   height: 5184
   normalised_width: 0.53317901234568
   normalised_height: 1.8755426917511
   title: 
   caption: 
-- src-full: Selfportraits/Selfportraits - 13C76990-0685-494C-8FAE-60E244D428C1.jpg
-  src-thumbnail: Selfportraits/Thumbnail/Selfportraits - 13C76990-0685-494C-8FAE-60E244D428C1_thumbnail.jpg
+  order_index: 3
+- src-full: Selfportraits/Full/Selfportraits - A342C611-2BB3-4C9E-BBB4-73D52A7DBD9C_full.webp
+  src-large: Selfportraits/Large/Selfportraits - A342C611-2BB3-4C9E-BBB4-73D52A7DBD9C_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - A342C611-2BB3-4C9E-BBB4-73D52A7DBD9C_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - A342C611-2BB3-4C9E-BBB4-73D52A7DBD9C_small.webp
+  width: 3888
+  height: 5184
+  normalised_width: 0.75
+  normalised_height: 1.3333333333333
+  title: 
+  caption: 
+  order_index: 4
+- src-full: Selfportraits/Full/Selfportraits - 4A30B8EC-4690-4A62-B9FE-B5B97D46CEC9_full.webp
+  src-large: Selfportraits/Large/Selfportraits - 4A30B8EC-4690-4A62-B9FE-B5B97D46CEC9_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - 4A30B8EC-4690-4A62-B9FE-B5B97D46CEC9_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - 4A30B8EC-4690-4A62-B9FE-B5B97D46CEC9_small.webp
+  width: 3264
+  height: 2308
+  normalised_width: 1.4142114384749
+  normalised_height: 0.70710784313725
+  title: 
+  caption: 
+  order_index: 5
+- src-full: Selfportraits/Full/Selfportraits - 4F26C2B8-60D8-46DC-A292-3262356F6755_full.webp
+  src-large: Selfportraits/Large/Selfportraits - 4F26C2B8-60D8-46DC-A292-3262356F6755_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - 4F26C2B8-60D8-46DC-A292-3262356F6755_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - 4F26C2B8-60D8-46DC-A292-3262356F6755_small.webp
+  width: 15776
+  height: 7888
+  normalised_width: 2
+  normalised_height: 0.5
+  title: 
+  caption: 
+  order_index: 6
+- src-full: Selfportraits/Full/Selfportraits - 13C76990-0685-494C-8FAE-60E244D428C1_full.webp
+  src-large: Selfportraits/Large/Selfportraits - 13C76990-0685-494C-8FAE-60E244D428C1_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - 13C76990-0685-494C-8FAE-60E244D428C1_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - 13C76990-0685-494C-8FAE-60E244D428C1_small.webp
   width: 3489
   height: 5184
   normalised_width: 0.67303240740741
   normalised_height: 1.4858125537403
   title: 
   caption: 
-- src-full: Selfportraits/Selfportraits - 4FFC6802-431E-4581-AA18-18F81767C5D0.jpg
-  src-thumbnail: Selfportraits/Thumbnail/Selfportraits - 4FFC6802-431E-4581-AA18-18F81767C5D0_thumbnail.jpg
+  order_index: 7
+- src-full: Selfportraits/Full/Selfportraits - 4FFC6802-431E-4581-AA18-18F81767C5D0_full.webp
+  src-large: Selfportraits/Large/Selfportraits - 4FFC6802-431E-4581-AA18-18F81767C5D0_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - 4FFC6802-431E-4581-AA18-18F81767C5D0_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - 4FFC6802-431E-4581-AA18-18F81767C5D0_small.webp
   width: 3356
   height: 5184
   normalised_width: 0.64737654320988
   normalised_height: 1.5446960667461
   title: 
   caption: 
-- src-full: Selfportraits/Selfportraits - 3F73CC5F-4CF6-4834-8DEF-0712DD6E7233.jpg
-  src-thumbnail: Selfportraits/Thumbnail/Selfportraits - 3F73CC5F-4CF6-4834-8DEF-0712DD6E7233_thumbnail.jpg
+  order_index: 8
+- src-full: Selfportraits/Full/Selfportraits - 3F73CC5F-4CF6-4834-8DEF-0712DD6E7233_full.webp
+  src-large: Selfportraits/Large/Selfportraits - 3F73CC5F-4CF6-4834-8DEF-0712DD6E7233_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - 3F73CC5F-4CF6-4834-8DEF-0712DD6E7233_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - 3F73CC5F-4CF6-4834-8DEF-0712DD6E7233_small.webp
   width: 5184
   height: 3888
   normalised_width: 1.3333333333333
   normalised_height: 0.75
   title: 
   caption: 
-- src-full: Selfportraits/Selfportraits - 0DEFBDC4-E7E9-4E07-90ED-DD139421DE3B.jpg
-  src-thumbnail: Selfportraits/Thumbnail/Selfportraits - 0DEFBDC4-E7E9-4E07-90ED-DD139421DE3B_thumbnail.jpg
+  order_index: 9
+- src-full: Selfportraits/Full/Selfportraits - 0DEFBDC4-E7E9-4E07-90ED-DD139421DE3B_full.webp
+  src-large: Selfportraits/Large/Selfportraits - 0DEFBDC4-E7E9-4E07-90ED-DD139421DE3B_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - 0DEFBDC4-E7E9-4E07-90ED-DD139421DE3B_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - 0DEFBDC4-E7E9-4E07-90ED-DD139421DE3B_small.webp
   width: 3888
   height: 5184
   normalised_width: 0.75
   normalised_height: 1.3333333333333
   title: 
   caption: 
-- src-full: Selfportraits/Selfportraits - E9EFC7F2-623E-41B0-BF21-AF91A871DE48.jpg
-  src-thumbnail: Selfportraits/Thumbnail/Selfportraits - E9EFC7F2-623E-41B0-BF21-AF91A871DE48_thumbnail.jpg
+  order_index: 10
+- src-full: Selfportraits/Full/Selfportraits - E9EFC7F2-623E-41B0-BF21-AF91A871DE48_full.webp
+  src-large: Selfportraits/Large/Selfportraits - E9EFC7F2-623E-41B0-BF21-AF91A871DE48_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - E9EFC7F2-623E-41B0-BF21-AF91A871DE48_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - E9EFC7F2-623E-41B0-BF21-AF91A871DE48_small.webp
   width: 4949
   height: 3712
   normalised_width: 1.3332435344828
   normalised_height: 0.75005051525561
   title: 
   caption: 
-- src-full: Selfportraits/Selfportraits - C0AA8A16-A1D9-4038-A99D-6C889732D2D9.jpg
-  src-thumbnail: Selfportraits/Thumbnail/Selfportraits - C0AA8A16-A1D9-4038-A99D-6C889732D2D9_thumbnail.jpg
+  order_index: 11
+- src-full: Selfportraits/Full/Selfportraits - C0AA8A16-A1D9-4038-A99D-6C889732D2D9_full.webp
+  src-large: Selfportraits/Large/Selfportraits - C0AA8A16-A1D9-4038-A99D-6C889732D2D9_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - C0AA8A16-A1D9-4038-A99D-6C889732D2D9_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - C0AA8A16-A1D9-4038-A99D-6C889732D2D9_small.webp
   width: 3000
   height: 4000
   normalised_width: 0.75
   normalised_height: 1.3333333333333
   title: 
   caption: OLYMPUS DIGITAL CAMERA
-- src-full: Selfportraits/Selfportraits - 301281F6-01D0-42AB-AD49-F7938D613F0B.jpg
-  src-thumbnail: Selfportraits/Thumbnail/Selfportraits - 301281F6-01D0-42AB-AD49-F7938D613F0B_thumbnail.jpg
+  order_index: 12
+- src-full: Selfportraits/Full/Selfportraits - 301281F6-01D0-42AB-AD49-F7938D613F0B_full.webp
+  src-large: Selfportraits/Large/Selfportraits - 301281F6-01D0-42AB-AD49-F7938D613F0B_large.webp
+  src-mid: Selfportraits/Mid/Selfportraits - 301281F6-01D0-42AB-AD49-F7938D613F0B_mid.webp
+  src-small: Selfportraits/Small/Selfportraits - 301281F6-01D0-42AB-AD49-F7938D613F0B_small.webp
   width: 3888
   height: 5184
   normalised_width: 0.75
   normalised_height: 1.3333333333333
   title: 
   caption: 
+  order_index: 13

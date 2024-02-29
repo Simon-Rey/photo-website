@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Patterns of Amsterdam | Simon Rey
+title: Portraits | Simon Rey
 ---
 
 # Portraits

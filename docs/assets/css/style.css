@@ -112,9 +112,11 @@ Main Menu
 
 #main-menu {
     padding: 0;
-    margin: 60px 0 0;
+    margin: 0;
     list-style: none;
     box-sizing: border-box;
+    overflow-y: auto;
+    max-height: calc(100vh - 120px);
 }
 
 #main-menu > li {

@@ -1,5 +1,5 @@
 
-{% assign photos = site.data[include.name] %}
+{% assign photos = site.data[include.name] | sort: 'order_index' %}
 {% assign photoDiv1 = '' | split: '' %}
 {% assign photoDiv2 = '' | split: '' %}
 {% assign photoDiv3 = '' | split: '' %}
@@ -29,9 +29,9 @@
   {% for photoDiv in allPhotoDivs %}
     <div>
       {% for photo in photoDiv %}
-          <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src-thumbnail }}"
+          <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src-small }}"
                {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}
-               data-srcfull="{{ site.baseurl }}/assets/galleries/{{ photo.src-full }}">
+               data-srcfull="{{ site.baseurl }}/assets/galleries/{{ photo.src-large }}">
       {% endfor %}
     </div>
   {% endfor %}
