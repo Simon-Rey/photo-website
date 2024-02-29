@@ -30,7 +30,9 @@
     <div>
       {% for photo in photoDiv %}
           <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src-small }}"
-               {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}>
+               {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}
+               data-orderindex = {{ photo.order_index }}
+          >
       {% endfor %}
     </div>
   {% endfor %}
@@ -71,8 +73,8 @@
     galleryImages.forEach((image, index) => {
         image.addEventListener('click', () => {
             showModal();
-            modalImg.src = slideSrcArray[index];
-            currentSlideIndex = index;
+            modalImg.src = slideSrcArray[image.dataset.orderindex];
+            currentSlideIndex = image.dataset.orderindex;
         });
     });
 
