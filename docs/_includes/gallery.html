@@ -31,7 +31,7 @@
       {% for photo in photoDiv %}
           <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src-small }}"
                {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}
-               data-orderindex = {{ photo.order_index }}
+               data-orderindex = {{ forloop.index }}
           >
       {% endfor %}
     </div>
