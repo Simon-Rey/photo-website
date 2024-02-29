@@ -148,7 +148,7 @@
         }
     });
 
-    document.addEventListener('touchend', () => {
+    document.addEventListener('touchend', (e) => {
         if (modal.classList.contains('visible')) {
             const touchDiff = touchEndX - touchStartX;
             if (touchDiff > 50) {
@@ -156,6 +156,8 @@
             } else if (touchDiff < -50) {
                 plusSlides(-1); // Trigger plusSlides(-1) when the user slides to the right
             }
+            e.preventDefault(); // Prevent default touch behavior
+            e.stopPropagation(); // Stop event propagation
         }
     });
 </script>
