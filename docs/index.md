@@ -3,10 +3,8 @@ layout: default
 title: Simon Rey Photo
 ---
 
-# Welcome
+# Me, Myself, and My Photos
 
-This is my photo website, check out the different galleries available.
-
-## Me as I see Myself
+Welcome, enjoy, have fun!
 
 {% include gallery.html name="Selfportraits" %}

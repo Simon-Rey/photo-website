@@ -117,8 +117,14 @@ Main Menu
     box-sizing: border-box;
     overflow-y: auto;
     max-height: calc(100vh - 120px);
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 
+#main-menu::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
 #main-menu > li {
     font-weight: bold;
     display: block;
@@ -239,4 +245,13 @@ Gallery Style
     right: 0;
     padding-right: 25px;
     padding-left: 30px;
+}
+
+/* ==========
+Special Style
+========== */
+
+.foggy-text {
+    color: transparent;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }

@@ -3,6 +3,8 @@ layout: default
 title: Foggy | Simon Rey
 ---
 
-# Foggy
+# <span class="foggy-text">Foggy</span>
+
+<span class="foggy-text">Can you read that?</span>
 
 {% include gallery.html name="Foggy" %}
