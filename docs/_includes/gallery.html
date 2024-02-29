@@ -31,7 +31,7 @@
       {% for photo in photoDiv %}
           <img class="photo-thumbnail" src="{{ site.baseurl }}/assets/galleries/{{ photo.src-small }}"
                {% if photo.alt %} alt="{{ photo.alt }}"{% endif %}
-               data-orderindex = {{ forloop.index }}
+               data-orderindex = {{ forloop.index| plus: -1 }}
           >
       {% endfor %}
     </div>
@@ -54,8 +54,7 @@
     const galleryImages = document.querySelectorAll('.photo-thumbnail');
     let currentSlideIndex = 0;
     let slideSrcArray = [
-        {% for photo in photos %}
-        "{{ site.baseurl }}/assets/galleries/{{ photo.src-large }}",
+        {% for photo in photos %} "{{ site.baseurl }}/assets/galleries/{{ photo.src-large }}",
         {% endfor %}
     ]; // Array to store image source URLs
 
@@ -70,11 +69,12 @@
         preloadImages(); // Preload images when the DOM is ready
     });
 
-    galleryImages.forEach((image, index) => {
+    galleryImages.forEach((image) => {
         image.addEventListener('click', () => {
             showModal();
-            modalImg.src = slideSrcArray[image.dataset.orderindex];
-            currentSlideIndex = image.dataset.orderindex;
+            const photo_index = parseInt(image.dataset.orderindex)
+            modalImg.src = slideSrcArray[photo_index];
+            currentSlideIndex = photo_index;
         });
     });
 
