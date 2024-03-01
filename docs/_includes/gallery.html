@@ -135,35 +135,37 @@
         }
     });
 
-    // let touchStartX = 0;
-    // let touchEndX = 0;
-    //
-    // document.addEventListener('touchstart', (e) => {
-    //     if (modal.classList.contains('visible')) {
-    //         touchStartX = e.touches[0].clientX;
-    //     }
-    // });
-    //
-    // document.addEventListener('touchmove', (e) => {
-    //     if (modal.classList.contains('visible')) {
-    //         touchEndX = e.touches[0].clientX;
-    //     }
-    // });
-    //
-    // document.addEventListener('touchend', (e) => {
-    //     if (modal.classList.contains('visible')) {
-    //         const touchDiff = touchEndX - touchStartX;
-    //         if (touchDiff > 50) {
-    //             plusSlides(1); // Trigger plusSlides(1) when the user slides to the left
-    //         } else if (touchDiff < -50) {
-    //             plusSlides(-1); // Trigger plusSlides(-1) when the user slides to the right
-    //         } else if (e.target === modalClose) {
-    //             hideModal();
-    //         }
-    //         e.preventDefault(); // Prevent default touch behavior
-    //         e.stopPropagation(); // Stop event propagation
-    //     }
-    // });
+    let touchStartX = 0;
+    let touchEndX = 0;
+
+    document.addEventListener('touchstart', (e) => {
+        if (modal.classList.contains('visible')) {
+            touchStartX = e.touches[0].clientX;
+        }
+    });
+
+    document.addEventListener('touchmove', (e) => {
+        if (modal.classList.contains('visible')) {
+            touchEndX = e.touches[0].clientX;
+        }
+    });
+
+    document.addEventListener('touchend', (e) => {
+        if (modal.classList.contains('visible')) {
+            const touchDiff = touchEndX - touchStartX;
+            if (touchDiff > 50) {
+                plusSlides(1); // Trigger plusSlides(1) when the user slides to the left
+            } else if (touchDiff < -50) {
+                plusSlides(-1); // Trigger plusSlides(-1) when the user slides to the right
+            } else if (e.target === modalClose) {
+                hideModal();
+            }
+            e.preventDefault(); // Prevent default touch behavior
+            e.stopPropagation(); // Stop event propagation
+            touchStartX = 0;
+            touchEndX = 0;
+        }
+    });
 
     window.addEventListener('popstate', function(event) {
         if (modal.classList.contains('visible')) {
