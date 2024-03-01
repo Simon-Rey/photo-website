@@ -151,15 +151,13 @@
             }
             touchEndX = e.changedTouches[0].screenX
             updateOnSwipe()
-            e.preventDefault(); // Prevent default touch behavior
-            e.stopPropagation(); // Stop event propagation
         }
     })
-
     function updateOnSwipe() {
-        if (touchEndX < touchStartX) {
+        const diff = touchEndX - touchStartX
+        if (diff < -50) {
             plusSlides(-1); // Trigger plusSlides(-1) when the user slides to the right
-        } else if (touchEndX > touchStartX) {
+        } else if (diff > 50) {
             plusSlides(1); // Trigger plusSlides(1) when the user slides to the left
         }
     }
