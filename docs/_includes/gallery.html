@@ -39,10 +39,10 @@
 </div>
 
 <div id="modal" class="modal">
-  <img class="modal-content" id="modal-image">
+  <img class="modal-content" id="modal-image" alt="" src="">
   <a class="modal-control modal-prev" id="modal-prev">&#10094;</a>
   <a class="modal-control modal-next" id="modal-next">&#10095;</a>
-  <span class="close">&times;</span>
+  <span id="modal-close" class="close">&times;</span>
 </div>
 
 <script>
@@ -51,6 +51,7 @@
     const modalControls = document.querySelectorAll('.modal-control');
     const modalPrev = document.getElementById('modal-prev');
     const modalNext = document.getElementById('modal-next');
+    const modalClose = document.getElementById('modal-close');
     const galleryImages = document.querySelectorAll('.photo-thumbnail');
     let currentSlideIndex = 0;
     let slideSrcArray = [
@@ -155,9 +156,17 @@
                 plusSlides(1); // Trigger plusSlides(1) when the user slides to the left
             } else if (touchDiff < -50) {
                 plusSlides(-1); // Trigger plusSlides(-1) when the user slides to the right
+            } else if (e.target === modalClose) {
+                hideModal();
             }
             e.preventDefault(); // Prevent default touch behavior
             e.stopPropagation(); // Stop event propagation
+        }
+    });
+
+    window.addEventListener('popstate', function(event) {
+        if (modal.classList.contains('visible')) {
+            hideModal(); // Close the modal when the 'Back' button is pressed on mobile devices
         }
     });
 </script>
