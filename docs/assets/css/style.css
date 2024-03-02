@@ -209,6 +209,7 @@ Gallery Style
     text-decoration: none;
     opacity: 1;
     transition: opacity 4s ease;
+    z-index: 2;
 }
 
 .modal-control.hidden {
@@ -223,7 +224,7 @@ Gallery Style
 .close {
     color: #fff;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     font-size: 35px;
     font-weight: bold;
     cursor: pointer;
@@ -256,6 +257,25 @@ Gallery Style
     right: 0;
     padding-right: 25px;
     padding-left: 30px;
+}
+
+.modal-details-box {
+    position: absolute;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    left: 25px;
+    top: 100%;
+    transform: translateY(-100%);
+    display: none;
+}
+
+.modal-details-box > p {
+    font-size: 0.7rem;
+}
+
+.modal-details-box.visible {
+    display: block;
 }
 
 /* ==========

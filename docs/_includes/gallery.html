@@ -39,10 +39,11 @@
 </div>
 
 <div id="modal" class="modal">
-  <img class="modal-content" id="modal-image" alt="" src="">
-  <a class="modal-control modal-prev" id="modal-prev">&#10094;</a>
-  <a class="modal-control modal-next" id="modal-next">&#10095;</a>
-  <span id="modal-close" class="close">&times;</span>
+    <img class="modal-content" id="modal-image" alt="" src="">
+    <a class="modal-control modal-prev" id="modal-prev">&#10094;</a>
+    <a class="modal-control modal-next" id="modal-next">&#10095;</a>
+    <span id="modal-close" class="close">&times;</span>
+    <div id="modal-details-box" class="modal-details-box"></div>
 </div>
 
 <script>
@@ -52,15 +53,20 @@
     const modalPrev = document.getElementById('modal-prev');
     const modalNext = document.getElementById('modal-next');
     const modalClose = document.getElementById('modal-close');
+    const modalDetails = document.getElementById('modal-details-box');
     const galleryImages = document.querySelectorAll('.photo-thumbnail');
     let currentSlideIndex = 0;
-    let slideSrcArray = [
+    let photoSrcs = [
         {% for photo in photos %} "{{ site.baseurl }}/assets/galleries/{{ photo.src-large }}",
         {% endfor %}
     ]; // Array to store image source URLs
+    let photoDetails = [
+        {% for photo in photos %} "{% if photo.title %}{{ photo.title }}{% if photo.caption %} &ndash; {% endif %}{% endif %}{% if photo.caption %}{{ photo.caption }}{% endif %}",
+        {% endfor %}
+    ];
 
     function preloadImages() {
-        slideSrcArray.forEach((src) => {
+        photoSrcs.forEach((src) => {
             const img = new Image();
             img.src = src;
         });
@@ -73,9 +79,7 @@
     galleryImages.forEach((image) => {
         image.addEventListener('click', () => {
             showModal();
-            const photo_index = parseInt(image.dataset.orderindex)
-            modalImg.src = slideSrcArray[photo_index];
-            currentSlideIndex = photo_index;
+            showPhoto(parseInt(image.dataset.orderindex));
         });
     });
 
@@ -92,11 +96,11 @@
     });
 
     modalPrev.addEventListener('click', () => {
-        plusSlides(-1);
+        showPhoto(-1);
     });
 
     modalNext.addEventListener('click', () => {
-        plusSlides(1);
+        showPhoto(1);
     });
 
     function showModal() {
@@ -112,23 +116,30 @@
         modalImg.src = "";
     }
 
-    function plusSlides(n) {
-        currentSlideIndex += n;
-        if (currentSlideIndex >= slideSrcArray.length) {
-            currentSlideIndex = 0;
+    function showPhoto(n) {
+        if (n >= photoSrcs.length) {
+            n = 0;
         }
-        if (currentSlideIndex < 0) {
-            currentSlideIndex = slideSrcArray.length - 1;
+        if (n < 0) {
+            n = photoSrcs.length - 1;
         }
-        modalImg.src = slideSrcArray[currentSlideIndex];
+        currentSlideIndex = n;
+        modalImg.src = photoSrcs[n];
+        const details = photoDetails[n];
+        if (details) {
+            modalDetails.innerHTML = "<p>" + details + "</p>"
+            modalDetails.classList.add('visible');
+        } else if (modalDetails.classList.contains('visible')) {
+            modalDetails.classList.remove('visible');
+        }
     }
 
     document.addEventListener('keydown', (e) => {
         if (modal.classList.contains('visible')) {
             if (e.key === 'ArrowLeft' || e.keyCode === 37) {
-                plusSlides(-1);
+                showPhoto(currentSlideIndex - 1);
             } else if (e.key === 'ArrowRight' || e.keyCode === 39) {
-                plusSlides(1);
+                showPhoto(currentSlideIndex + 1);
             } else if (e.key === 'Escape' || e.keyCode === 27) {
                 hideModal();
             }
@@ -156,9 +167,9 @@
     function updateOnSwipe() {
         const diff = touchEndX - touchStartX
         if (diff < -50) {
-            plusSlides(-1); // Trigger plusSlides(-1) when the user slides to the right
+            showPhoto(-1); // Trigger plusSlides(-1) when the user slides to the right
         } else if (diff > 50) {
-            plusSlides(1); // Trigger plusSlides(1) when the user slides to the left
+            showPhoto(1); // Trigger plusSlides(1) when the user slides to the left
         }
     }
 </script>
