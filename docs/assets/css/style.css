@@ -106,8 +106,8 @@ Main Menu
 
 #main-menu-wrap {
     position: fixed;
-    top: 120px;
-    width: 18ch;
+    top: 120px;  /* 120 banner */
+    width: calc(18ch + 20px);
 }
 
 #main-menu {
@@ -125,6 +125,7 @@ Main Menu
     width: 0;
     height: 0;
 }
+
 #main-menu > li {
     font-weight: bold;
     display: block;
@@ -134,17 +135,21 @@ Main Menu
 }
 
 #main-menu > li a {
-    padding: 20px 10px;
+    padding: 20px 20px 20px 20px;
     color: black;
     text-decoration: none;
     display: block;
-    width: 18ch;
     box-sizing: border-box;
 }
 
-#main-menu > li:hover {
+#main-menu > li a:hover {
     background-color: var(--color-background-dark);
     transition: background-color 0.5s;
+}
+
+#main-menu .separator {
+    margin: 25px 20%;
+    border: 1px #939393 solid;
 }
 
 /* ========
@@ -152,10 +157,14 @@ Body Layout
 ======== */
 
 main {
-    margin-left: 18ch;
+    margin-left: calc(18ch + 20px);
     margin-top: 150px;
     margin-right: 0;
-    padding: 0 20px;
+    padding: 0;
+}
+
+main > p {
+    padding-left: 20px;
 }
 
 h1 {
