@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Foggy | Simon Rey
+navID: nav-foggy
+additional_script: gallery.js
 ---
 
 # <span class="foggy-text">Foggy</span>

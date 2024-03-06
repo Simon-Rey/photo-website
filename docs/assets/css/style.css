@@ -147,9 +147,13 @@ Main Menu
     transition: background-color 0.5s;
 }
 
+#main-menu > li.active {
+    background-color: var(--color-background-dark);
+}
+
 #main-menu .separator {
     margin: 25px 20%;
-    border: 1px #939393 solid;
+    border: 1px var(--color-background-dark) solid;
 }
 
 /* ========

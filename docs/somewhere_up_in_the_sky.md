@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Somewhere up in the Sky | Simon Rey
+navID: nav-somewhere-up-sky
+additional_script: gallery.js
 ---
 
 # Somewhere up in the Sky

@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Patterns | Simon Rey
+navID: nav-patterns
+additional_script: gallery.js
 ---
 
 # Patterns

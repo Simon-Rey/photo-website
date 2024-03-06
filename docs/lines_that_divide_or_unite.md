@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Lines that Divide or Unite | Simon Rey
+navID: nav-lines-divide-unite
+additional_script: gallery.js
 ---
 
 # Lines that Divide or Unite

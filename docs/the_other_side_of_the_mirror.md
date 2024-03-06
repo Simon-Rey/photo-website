@@ -1,6 +1,8 @@
 ---
 layout: default
 title: The Other Side of the Mirror | Simon Rey
+navID: nav-other-side-mirror
+additional_script: gallery.js
 ---
 
 # The Other Side of the Mirror

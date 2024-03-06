@@ -16,30 +16,30 @@
     <ul id="main-menu">
         <li class="separator"></li>
 
-        <li><a href="{{ "scrape_the_surface" | relative_url }}">Scrape the Surface</a></li>
-        <li><a href="{{ "shipped_around" | relative_url }}">Shipped Around</a></li>
-        <li><a href="{{ "patterns" | relative_url }}">Patterns</a></li>
-        <li><a href="{{ "lines_that_divide_or_unite" | relative_url }}">Lines that Divide or Unite</a></li>
-        <li><a href="{{ "shaping_the_silhouette" | relative_url }}">Shaping the Silhouette</a></li>
-        <li><a href="{{ "the_other_side_of_the_mirror" | relative_url }}">The Other Side of the Mirror</a></li>
+        <li id="nav-scrape-surface"><a href="{{ "scrape_the_surface" | relative_url }}">Scrape the Surface</a></li>
+        <li id="nav-shipped-around"><a href="{{ "shipped_around" | relative_url }}">Shipped Around</a></li>
+        <li id="nav-patterns"><a href="{{ "patterns" | relative_url }}">Patterns</a></li>
+        <li id="nav-lines-divide-unite"><a href="{{ "lines_that_divide_or_unite" | relative_url }}">Lines that Divide or Unite</a></li>
+        <li id="nav-shaping-silhouette"><a href="{{ "shaping_the_silhouette" | relative_url }}">Shaping the Silhouette</a></li>
+        <li id="nav-other-side-mirror"><a href="{{ "the_other_side_of_the_mirror" | relative_url }}">The Other Side of the Mirror</a></li>
 
         <li class="separator"></li>
 
-        <li><a href="{{ "insides" | relative_url }}">Insides</a></li>
-        <li><a href="{{ "strolling_the_streets" | relative_url }}">Strolling the Streets</a></li>
-        <li><a href="{{ "outsides" | relative_url }}">Outside</a></li>
+        <li id="nav-insides"><a href="{{ "insides" | relative_url }}">Insides</a></li>
+        <li id="nav-strolling-streets"><a href="{{ "strolling_the_streets" | relative_url }}">Strolling the Streets</a></li>
+        <li id="nav-outsides"><a href="{{ "outsides" | relative_url }}">Outside</a></li>
 
         <li class="separator"></li>
 
-        <li><a href="{{ "somewhere_up_in_the_sky" | relative_url }}">Somewhere up in the Sky</a></li>
-        <li><a href="{{ "skies" | relative_url }}">Skies</a></li>
+        <li id="nav-somewhere-up-sky"><a href="{{ "somewhere_up_in_the_sky" | relative_url }}">Somewhere up in the Sky</a></li>
+        <li id="nav-skies"><a href="{{ "skies" | relative_url }}">Skies</a></li>
 
         <li class="separator"></li>
 
-        <li><a href="{{ "solitude" | relative_url }}">Solitudes</a></li>
-        <li><a href="{{ "foggy" | relative_url }}">Foggy</a></li>
-        <li><a href="{{ "movement" | relative_url }}">Movement</a></li>
-        <li><a href="{{ "portraits" | relative_url }}">Portraits</a></li>
+        <li id="nav-solitude"><a href="{{ "solitude" | relative_url }}">Solitudes</a></li>
+        <li id="nav-foggy"><a href="{{ "foggy" | relative_url }}">Foggy</a></li>
+        <li id="nav-movement"><a href="{{ "movement" | relative_url }}">Movement</a></li>
+        <li id="nav-portraits"><a href="{{ "portraits" | relative_url }}">Portraits</a></li>
     </ul>
 </nav>
 
@@ -50,5 +50,29 @@
 <footer>
 
 </footer>
+
+<script>
+    {% if page.navID %}
+        const currentNav = document.getElementById("{{ page.navID }}");
+        currentNav.classList.add("active");
+
+        // Set the scroll position of the menu
+        const menuItems = document.querySelectorAll("#main-menu > li");
+        let scrollPosition = 0;
+        let currentIndex = 0;
+        let currentNavID = menuItems[currentIndex].id;
+        while (currentNavID !== "{{ page.navID }}") {
+            scrollPosition += menuItems[currentIndex].offsetHeight;
+            currentIndex += 1;
+            currentNavID = menuItems[currentIndex].id;
+        }
+        scrollPosition -= (document.getElementById("main-menu-wrap").offsetHeight / 2);
+        document.getElementById("main-menu").scrollTop = scrollPosition;
+    {% endif %}
+</script>
+
+{% if page.additional_script %}
+<script src="{{ site.baseurl }}/assets/js/{{ page.additional_script }}"></script>
+{% endif %}
 
 </body>

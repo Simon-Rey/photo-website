@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Strolling the Streets | Simon Rey
+navID: nav-strolling-streets
+additional_script: gallery.js
 ---
 
 # Strolling the Streets

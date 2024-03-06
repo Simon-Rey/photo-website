@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Shaping the Silhouette | Simon Rey
+navID: nav-shaping-silhouette
+additional_script: gallery.js
 ---
 
 # Shaping the Silhouette

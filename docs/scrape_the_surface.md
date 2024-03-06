@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Scrape the Surface | Simon Rey
+navID: nav-scrape-surface
+additional_script: gallery.js
 ---
 
 # Scrape the Surface

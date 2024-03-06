@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Simon Rey Photo
+additional_script: gallery.js
 ---
 
 # Me, Myself, and My Photos

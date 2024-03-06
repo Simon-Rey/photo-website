@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Solitudes | Simon Rey
+navID: nav-solitude
+additional_script: gallery.js
 ---
 
 # Solitudes

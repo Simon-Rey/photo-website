@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Outsides | Simon Rey
+navID: nav-outsides
+additional_script: gallery.js
 ---
 
 # Outsides

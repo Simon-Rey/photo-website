@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Insides | Simon Rey
+navID: nav-insides
+additional_script: gallery.js
 ---
 
 # Insides

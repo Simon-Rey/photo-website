@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Portraits | Simon Rey
+navID: nav-portraits
+additional_script: gallery.js
 ---
 
 # Portraits

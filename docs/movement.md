@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Movement | Simon Rey
+navID: nav-movement
+additional_script: gallery.js
 ---
 
 # Movement
